@@ -1,13 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Site de Tania Pacheff</title>
+    <title>
+        <?php bloginfo('name'); ?>
+        <?php if (is_home()) : ?>
+        <?php bloginfo('description'); ?>
+        <?php else : ?>
+        <?php wp_title(); ?>
+        <?php endif; ?>
+    </title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php wp_head(); ?>
 
-    <link rel="stylesheet" href="assets/css/main.css">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,8 +26,16 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="container-fluid">
+<div class="container">
 
-</div>
-</body>
-</html>
+    <header class="row">
+        <div class="col-xs-2">
+            <h1><a href="<?php bloginfo('url'); ?>"><img src="#" alt="Logo de Tania Pacheff"><span class="hidden"><?php bloginfo('name'); ?></span></a></h1>
+        </div>
+        <div class="col-xs-10">
+
+        </div>
+
+    </header>
+
+
