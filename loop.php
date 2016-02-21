@@ -25,6 +25,9 @@
 
         <p class="tags"><?php the_tags('Mots-clés : ', ', '); ?></p>
 
+            <?php comments_template(); ?>
+            <?php comment_form(); ?>
+
         </article>
     <?php endwhile; ?>
 <?php else : ?>
