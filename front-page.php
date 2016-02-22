@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-    <p>homepage du site</p>
+    <h1>Front-page</h1>
 
 <?php get_footer(); ?>

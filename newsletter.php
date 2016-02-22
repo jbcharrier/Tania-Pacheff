@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Page Newsletter
+*/
+?>
+
 <?php get_header(); ?>
 
     <p>page inscription newsletter</p>

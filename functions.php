@@ -46,3 +46,9 @@ function jbc_setup_scripts()
     //wp_enqueue_script('jquery'); = ['jquery']
     wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', ['jquery'], false, true);
 }
+
+
+
+/*------- @Custom post type */
+
+require_once TEMPLATEPATH . '/include/custom-post-type/tp_atelier.php';
