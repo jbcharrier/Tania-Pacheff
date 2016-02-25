@@ -9,6 +9,109 @@ License: GNU General Public License V2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-h1 {
-    color: blue;
+/***** General *****/
+
+html {
+    margin-top: 0 !important;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/***** Header *****/
+
+header h1 {
+    margin: 0;
+    height: 129px;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+.navigation {
+    list-style-type: none;
+    height: 129px;
+    line-height: 129px;
+
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navigation a {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #000;
+}
+
+.navigation a:hover {
+    color: #003890;
+    transition: all 0.5s;
+}
+
+/***** test rotation *****/
+
+.flip-container {
+    perspective: 1000;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 200px;
+    height: 200px;
+
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+    border-radius: 50%;
+    background-color: #5bc0de;
+    padding: 20%;
+    text-align: center;
+}
+
+.back p {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.back p span {
+    font-weight: bold;
+}
+

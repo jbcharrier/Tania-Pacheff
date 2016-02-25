@@ -3,6 +3,7 @@
 define('CAT_ID_PHP', 2);
 
 
+
 /*------- @Setup */
 
 add_action('after_setup_theme', 'jbc_setup_theme');
@@ -45,10 +46,16 @@ function jbc_setup_scripts()
 
     //wp_enqueue_script('jquery'); = ['jquery']
     wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', ['jquery'], false, true);
+
+    wp_enqueue_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js');
 }
 
 
 
 /*------- @Custom post type */
 
+require_once TEMPLATEPATH . '/include/custom-post-type/tp_temoignage.php';
+
 require_once TEMPLATEPATH . '/include/custom-post-type/tp_atelier.php';
+
+
