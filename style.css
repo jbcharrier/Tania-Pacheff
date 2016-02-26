@@ -9,6 +9,169 @@ License: GNU General Public License V2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+/***** Fonts *****/
+
+@font-face {
+    font-family: 'NeutraTextLightSCItalicAlt';
+    src: url('assets/fonts/NeutraTextLightSCItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextLightSCItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextLightSCItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextLightSCItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextLightSCItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextLightSCItalicAlt.svg#NeutraTextLightSCItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextLightSCAlt';
+    src: url('assets/fonts/NeutraTextLightSCAlt.eot');
+    src: url('assets/fonts/NeutraTextLightSCAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextLightSCAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextLightSCAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextLightSCAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextLightSCAlt.svg#NeutraTextLightSCAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextLightItalicAlt';
+    src: url('assets/fonts/NeutraTextLightItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextLightItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextLightItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextLightItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextLightItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextLightItalicAlt.svg#NeutraTextLightItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextLightAlt';
+    src: url('assets/fonts/NeutraTextLightAlt.eot');
+    src: url('assets/fonts/NeutraTextLightAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextLightAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextLightAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextLightAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextLightAlt.svg#NeutraTextLightAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextDemiSCItalicAlt';
+    src: url('assets/fonts/NeutraTextDemiSCItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextDemiSCItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextDemiSCItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextDemiSCItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextDemiSCItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextDemiSCItalicAlt.svg#NeutraTextDemiSCItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextDemiSCAlt';
+    src: url('assets/fonts/NeutraTextDemiSCAlt.eot');
+    src: url('assets/fonts/NeutraTextDemiSCAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextDemiSCAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextDemiSCAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextDemiSCAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextDemiSCAlt.svg#NeutraTextDemiSCAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextDemiItalicAlt';
+    src: url('assets/fonts/NeutraTextDemiItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextDemiItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextDemiItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextDemiItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextDemiItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextDemiItalicAlt.svg#NeutraTextDemiItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextDemiAlt';
+    src: url('assets/fonts/NeutraTextDemiAlt.eot');
+    src: url('assets/fonts/NeutraTextDemiAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextDemiAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextDemiAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextDemiAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextDemiAlt.svg#NeutraTextDemiAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBookSCItalicAlt';
+    src: url('assets/fonts/NeutraTextBookSCItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextBookSCItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBookSCItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBookSCItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBookSCItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBookSCItalicAlt.svg#NeutraTextBookSCItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBookSCAlt';
+    src: url('assets/fonts/NeutraTextBookSCAlt.eot');
+    src: url('assets/fonts/NeutraTextBookSCAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBookSCAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBookSCAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBookSCAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBookSCAlt.svg#NeutraTextBookSCAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBookItalicAlt';
+    src: url('assets/fonts/NeutraTextBookItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextBookItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBookItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBookItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBookItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBookItalicAlt.svg#NeutraTextBookItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBookAlt';
+    src: url('assets/fonts/NeutraTextBookAlt.eot');
+    src: url('assets/fonts/NeutraTextBookAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBookAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBookAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBookAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBookAlt.svg#NeutraTextBookAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBoldSCItalicAlt';
+    src: url('assets/fonts/NeutraTextBoldSCItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextBoldSCItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBoldSCItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBoldSCItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBoldSCItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBoldSCItalicAlt.svg#NeutraTextBoldSCItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBoldSCAlt';
+    src: url('assets/fonts/NeutraTextBoldSCAlt.eot');
+    src: url('assets/fonts/NeutraTextBoldSCAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBoldSCAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBoldSCAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBoldSCAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBoldSCAlt.svg#NeutraTextBoldSCAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBoldItalicAlt';
+    src: url('assets/fonts/NeutraTextBoldItalicAlt.eot');
+    src: url('assets/fonts/NeutraTextBoldItalicAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBoldItalicAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBoldItalicAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBoldItalicAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBoldItalicAlt.svg#NeutraTextBoldItalicAlt') format('svg');
+}
+
+@font-face {
+    font-family: 'NeutraTextBoldAlt';
+    src: url('assets/fonts/NeutraTextBoldAlt.eot');
+    src: url('assets/fonts/NeutraTextBoldAlt.eot') format('embedded-opentype'),
+    url('assets/fonts/NeutraTextBoldAlt.woff2') format('woff2'),
+    url('assets/fonts/NeutraTextBoldAlt.woff') format('woff'),
+    url('assets/fonts/NeutraTextBoldAlt.ttf') format('truetype'),
+    url('assets/fonts/NeutraTextBoldAlt.svg#NeutraTextBoldAlt') format('svg');
+}
+
+
 /***** General *****/
 
 html {
@@ -19,7 +182,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+
 /***** Header *****/
+
+header {
+    margin-bottom: 20px;
+}
 
 header h1 {
     margin: 0;
@@ -55,7 +224,13 @@ header img {
     transition: all 0.5s;
 }
 
-/***** test rotation *****/
+
+
+/***** témoignages *****/
+
+#temoignages {
+    background-color: #3c7bd2;
+}
 
 .flip-container {
     perspective: 1000;
@@ -97,21 +272,59 @@ header img {
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
-    border-radius: 50%;
-    background-color: #5bc0de;
-    padding: 20%;
-    text-align: center;
+    /*border-radius: 50%;*/
+    /*background-color: #5bc0de;*/
+    /*padding: 20%;*/
+    /*text-align: center;*/
 }
 
-.back p {
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;
+/*.back p {*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    /*margin: 0;*/
+/*}*/
+
+/*.back p span {*/
+    /*font-weight: bold;*/
+/*}*/
+
+
+
+/***** footer *****/
+
+/***** footer *****/
+
+
+footer{
+    background-color: #031632;
 }
 
-.back p span {
+.mentions > p{
+    border-right: 1px solid #fff;
+}
+
+.mentions p{
+display: inline-block;
+padding-right: 10px;
+}
+
+.mentions a{
+    text-decoration: none;
+    color: #fff;
     font-weight: bold;
 }
 
+.wysija-paragraph {
+    color: #fff;
+    font-weight: bold;
+}
+
+#newsletter-valid{
+    display: inline-block;
+    }
+
+.html_wysija {
+    display: inline-block;
+}
