@@ -171,6 +171,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     url('assets/fonts/NeutraTextBoldAlt.svg#NeutraTextBoldAlt') format('svg');
 }
 
+@font-face {
+    font-family: 'ForteMTRegular';
+    src: url('assets/fonts/ForteMTRegular.eot');
+    src: url('assets/fonts/ForteMTRegular.eot') format('embedded-opentype'),
+    url('assets/fonts/ForteMTRegular.woff2') format('woff2'),
+    url('assets/fonts/ForteMTRegular.woff') format('woff'),
+    url('assets/fonts/ForteMTRegular.ttf') format('truetype'),
+    url('assets/fonts/ForteMTRegular.svg#ForteMTRegular') format('svg');
+}
+
 
 /***** General *****/
 
@@ -182,12 +192,29 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.thumbnail {
+    border-color: #ff4402 !important;
+    border-radius: 0 !important;
+}
+
+.no-padd{
+    padding: 0 !important;
+}
+
+.titre-section{
+    text-transform: uppercase;
+    font-family: NeutraTextBoldSCAlt;
+    font-size: 35px;
+    color: #ff4402;
+}
+
 
 
 /***** Header *****/
 
 header {
-    margin-bottom: 20px;
+    margin: 21px 0 19px 0;
+    position: relative;
 }
 
 header h1 {
@@ -197,33 +224,59 @@ header h1 {
 
 header img {
     display: block;
-    margin: auto;
+    margin-left: 48px;
 }
 
 .navigation {
+    font-family: NeutraTextBookSCAlt;
     list-style-type: none;
-    height: 129px;
-    line-height: 129px;
+    height: 126px;
+    position: relative;
+}
 
+.navigation ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /*transform: translateY(30%);*/
+    margin-bottom: -8px;
 }
 
 .navigation li {
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 20px;
+}
+
+.navigation li:last-of-type{
+    margin-left: 20px;
+    margin-right: 0;
 }
 
 .navigation a {
     text-decoration: none !important;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 23px;
     color: #000;
 }
 
 .navigation a:hover {
-    color: #003890;
+    color: #ff4402;
     transition: all 0.5s;
 }
 
+#menu-navig{
+    padding-right: 0;
+}
+
+
+#logo-quiz {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -47px;
+    z-index: 10;
+    padding-left: 0;
+}
 
 
 /***** témoignages *****/
@@ -290,6 +343,40 @@ header img {
     /*font-weight: bold;*/
 /*}*/
 
+
+
+/***** page références *****/
+
+#section-ref h2 {
+    margin: 77px 0 34px 15px;
+}
+
+#section-ref {
+    padding-bottom: 81px;
+}
+
+.page-references {
+    display: inline-table;
+    min-height: 140px;
+}
+
+.grayscale img
+{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+.grayscale img:hover
+{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    transition: all 0.5s;
+}
 
 
 /***** footer *****/

@@ -26,6 +26,6 @@ function tp_create_references_custom()
         'has_archive' => 'reference',
         //'menu_icon' => get_template_directory_uri() . '/images/py.png',
         'menu_position' => 3,
-        'supports' => ['title', 'excerpt', 'thumbnail', 'page-attributes']
+        'supports' => ['title', 'url', 'thumbnail', 'page-attributes']
     ]);
 }

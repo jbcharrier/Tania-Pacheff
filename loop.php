@@ -36,5 +36,3 @@
 <?php endif; ?>
 
 <?php wp_reset_postdata(); ?>
-
-<p>Test loop</p>

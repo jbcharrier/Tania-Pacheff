@@ -1,7 +1,6 @@
 <?php
 
 
-
 /*------- @Setup */
 
 add_action('after_setup_theme', 'jbc_setup_theme');
@@ -25,6 +24,15 @@ function jbc_add_sidebar()
 }
 
 
+/*------- @remove admin header */
+
+add_action('get_header', 'remove_admin_login_header');
+function remove_admin_login_header()
+{
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
+
+
 /*------- @script header */
 
 add_action('wp_enqueue_scripts', 'jbc_setup_scripts');
@@ -40,9 +48,8 @@ function jbc_setup_scripts()
     //wp_enqueue_script('jquery'); = ['jquery']
     wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', ['jquery'], false, true);
 
-    wp_enqueue_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js');
+    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.js');
 }
-
 
 
 /*------- @Custom post type */
@@ -52,6 +59,7 @@ require_once TEMPLATEPATH . '/include/custom-post-type/tp_temoignage.php';
 require_once TEMPLATEPATH . '/include/custom-post-type/tp_references.php';
 require_once TEMPLATEPATH . '/include/custom-post-type/tp_bonnes_adresses.php';
 
-require_once TEMPLATEPATH . '/include/metabox/tp_meta_site.php';
+require_once TEMPLATEPATH . '/include/metabox/tp_meta_bonne_adresse.php';
+require_once TEMPLATEPATH . '/include/metabox/tp_meta_reference.php';
 
 

@@ -44,45 +44,30 @@ Template Name: Page Front-Page
         </div>
     </section>
 
-    <section class="row">
-        <h2>Ils me font confiance</h2>
-        <div class="row">
-            <div class="col-xs-2 col-xs-offset-1 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-2 col-xs-offset-1 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-2 col-xs-offset-1 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
-            <div class="col-xs-2 text-center"><img
-                    src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?> " alt=""></div>
+    <section class="row" id="section-ref">
+        <div class="col-md-10 col-md-offset-1 no-padd">
+            <h2 class="titre-section">Ils me font confiance</h2>
+            <?php $loop = new WP_Query(array('post_type' => 'reference', 'posts_per_page' => 12));
+            while ($loop->have_posts()) : $loop->the_post(); ?>
+                <?php $mylink = get_post_meta($post->ID, '_tp_meta_url', false);
+                if ($mylink) {
+                    ?>
+                    <a href="<?php echo $mylink ?>">
+                        <article class="page-references col-xs-6 col-sm-3 col-md-3">
+                            <?php if (has_post_thumbnail()): ?>
+                                <div class="thumbnail grayscale">
+                                    <?php the_post_thumbnail('thumbnail'); ?>
+                                </div>
+                            <?php endif; ?>
+                        </article>
+                    </a>
+                    <?php
+                } ?>
+            <?php endwhile; ?>
         </div>
     </section>
+
+
 
     <section class="row">
         <h2>Mes bonnes adresses</h2>

@@ -47,7 +47,7 @@
                 </a>
             </h1>
         </div>
-        <div class="col-xs-10 center">
+        <div class="col-xs-9" id="menu-navig">
             <?php
             $param_menu = [
                 'theme_location' => 'main',
@@ -55,5 +55,10 @@
                 'container_class' => 'navigation'
             ];
             wp_nav_menu($param_menu); ?>
+        </div>
+        <div class="col-xs-1" id="logo-quiz">
+            <a href="#">
+                <img src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/logo-quiz.png" alt="Logo quiz nutritionnel">
+            </a>
         </div>
     </header>
