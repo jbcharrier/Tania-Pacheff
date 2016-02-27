@@ -44,6 +44,7 @@ Template Name: Page Front-Page
         </div>
     </section>
 
+    <!--    Ils me font confiance-->
     <section class="row" id="section-ref">
         <div class="col-md-10 col-md-offset-1 no-padd">
             <h2 class="titre-section">Ils me font confiance</h2>
@@ -68,9 +69,41 @@ Template Name: Page Front-Page
     </section>
 
 
+    <!--    Mes bonnes adresses & partenaires -->
 
-    <section class="row">
-        <h2>Mes bonnes adresses</h2>
+    <section class="row" id="bonnes-adresses">
+        <div class="col-md-6 col-md-offset-1">
+            <h2 class="titre-section">Mes bonnes adresses</h2>
+        </div>
+        <section class="col-md-4 no-padd">
+            <h2 class="titre-section">Partenaires</h2>
+            <div class="row">
+                <article class="col-md-5 col-md-offset-1 partenaires">
+                    <a href="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/img/slowfood.png' ?>"
+                             alt="Logo Slowfood">
+                    </a>
+                </article>
+                <article class="col-md-5 partenaires">
+                    <a href="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/img/cielmonradis.png' ?>"
+                             alt="Logo Ciel, Mon Radis !">
+                    </a>
+                </article>
+                <article class="col-md-5 col-md-offset-1 partenaires">
+                    <a href="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/img/mygoodcoach.png' ?>"
+                             alt="Logo mygoodcoach.com">
+                    </a>
+                </article>
+                <article class="col-md-5 partenaires">
+                    <a href="">
+                        <img src="<?php echo get_template_directory_uri() . '/assets/img/izineo.png' ?>"
+                             alt="Logo Izineo">
+                    </a>
+                </article>
+            </div>
+        </section>
     </section>
 
     <section class="row">

@@ -379,6 +379,34 @@ header img {
 }
 
 
+/***** bonnes adresses *****/
+
+#bonnes-adresses {
+    background-color: #dad9d9;
+    padding-bottom: 66px;
+}
+
+#bonnes-adresses h2 {
+    margin : 64px 0 31px 40px;
+}
+
+
+
+
+/***** Partenaires *****/
+
+.partenaires{
+    border: 1px solid #000;
+    margin: 9px;
+}
+
+.partenaires img{
+    display: block;
+    text-align: center;
+}
+
+
+
 /***** footer *****/
 
 /***** footer *****/
