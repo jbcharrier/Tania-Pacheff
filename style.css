@@ -201,6 +201,10 @@ body {
     padding: 0 !important;
 }
 
+.no-marg{
+    margin: 0 !important;
+}
+
 .titre-section{
     text-transform: uppercase;
     font-family: NeutraTextBoldSCAlt;
@@ -208,7 +212,10 @@ body {
     color: #ff4402;
 }
 
-
+.row .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
 /***** Header *****/
 
@@ -283,6 +290,11 @@ header img {
 
 #temoignages {
     background-color: #dad9d9;
+    padding: 64px 0 66px 0;
+}
+
+#temoignages h2 {
+    margin-bottom: 34px !important;
 }
 
 .flip-container {
@@ -295,8 +307,8 @@ header img {
 }
 
 .flip-container, .front, .back {
-    width: 200px;
-    height: 200px;
+    width: 360px;
+    height: 360px;
 
 }
 
@@ -325,24 +337,42 @@ header img {
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
-    /*border-radius: 50%;*/
-    /*background-color: #5bc0de;*/
-    /*padding: 20%;*/
-    /*text-align: center;*/
 }
 
-/*.back p {*/
-    /*display: inline-block;*/
-    /*position: relative;*/
-    /*top: 50%;*/
-    /*transform: translateY(-50%);*/
-    /*margin: 0;*/
+/*.temoin img {*/
+    /*margin: 0 20px 0 20px;*/
 /*}*/
 
-/*.back p span {*/
-    /*font-weight: bold;*/
-/*}*/
+.temoin h4 {
+    font-family: NeutraTextBoldAlt;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    margin-bottom: 0 !important;
+}
 
+.temoin p{
+    font-family: NeutraTextBookAlt;
+    font-size: 20px;
+    color: #2a2a2a;
+}
+
+.arrow {
+    height: 360px;
+    line-height: 360px;
+}
+
+.arrow i {
+    color: #fff;
+    font-size: 150px;
+    vertical-align: middle;
+}
+
+.arrow i:hover {
+    color: #ff4402;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
 
 /***** page références *****/
@@ -485,3 +515,5 @@ padding-right: 10px;
 .html_wysija {
     display: inline-block;
 }
+
+

@@ -20,32 +20,105 @@ Template Name: Page Front-Page
         </contact>
     </section>
 
-<!--    Témoignages-->
+    <!--    Témoignages-->
 
-    <section class="row" id="temoignages">
-        <div class="col-md-11 col-md-offset-1">
-            <h2 class="titre-section">Témoignages</h2>
+    <section id="temoignages">
+        <div class="row no-padd no-marg">
+            <div class="col-md-11 col-md-offset-1">
+                <h2 class="titre-section">Témoignages</h2>
+            </div>
         </div>
-        <div>
-            <article>
-                <div class="flip-container">
-                    <div class="flipper">
-                        <div class="front">
-                            <img
-                                src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/chat.png"
-                                alt="test rotation" class="img-circle">
+        <div class="row no-padd no-marg">
+            <div class="col-md-1 arrow text-center">
+                <i class="fa fa-angle-left"></i>
+            </div>
+            <div class="col-md-10">
+                <div class="row no-padd">
+                    <article class="col-md-3 temoin">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/tony.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                                <div class="back">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/texte-tony.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                            </div>
                         </div>
-                        <div class="back">
-                            <img
-                                src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/home-page-3.png"
-                                alt="test rotation" class="img-circle">
+                        <div class="text-center">
+                            <h4>Tony Darré</h4>
+                            <p>Chef d'équipe dans le bâtiment</p>
                         </div>
-                    </div>
+                    </article>
+                    <article class="col-md-3 temoin">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/aline.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                                <div class="back">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/texte-tony.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h4>Aline Berthier</h4>
+                            <p>Responsable RH</p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 temoin">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/laurent.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                                <div class="back">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/texte-tony.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h4>Laurent Valot</h4>
+                            <p>Manager R&D</p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 temoin">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/beatrice.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                                <div class="back">
+                                    <img
+                                        src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/texte-tony.png"
+                                        alt="test rotation" class="img-circle">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h4>Béatrice Monsard</h4>
+                            <p>Responsable Animation</p>
+                        </div>
+                    </article>
                 </div>
-            </article>
-            <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-                Lire son témoignage
-            </button>
+            </div>
+            <div class="col-md-1 text-center arrow">
+                <i class="fa fa-angle-right"></i>
+            </div>
         </div>
     </section>
 
