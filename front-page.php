@@ -7,17 +7,30 @@ Template Name: Page Front-Page
 <?php get_header(); ?>
 
 <main>
-    <section class="row">
-
+    <section class="row" id="slider">
         <?php echo do_shortcode('[cycloneslider id="test"]'); ?>
 
-        <contact class="row">
-            <div class="col-xs-4 center">
-                <p>Tania Pacheff</p>
-                <p>Consultante diététicienne nutritionniste</p>
-                <p>06.62.06.90.23</p>
-            </div>
-        </contact>
+        <nav id="nav-lat">
+            <ul class="no-marg no-padd">
+                <li><a href="#">Tutoriels</a></li>
+                <li><a href="#">Mes bonnes adresses</a></li>
+            </ul>
+        </nav>
+
+        <aside id="reseaux">
+            <ul class="no-marg no-padd">
+                <li class="text-center"><a href="#"><div><i class="fa fa-linkedin"></i></div></a></li>
+                <li class="text-center"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="text-center"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="text-center"><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </aside>
+
+        <address>
+                <p class="no-marg">Tania Pacheff</p>
+                <p class="no-marg"><span>Consultante <br> diététicienne <br> nutritionniste</span></p>
+                <p class="no-marg">06 62 06 90 23</p>
+        </address>
     </section>
 
     <!--    Témoignages-->
