@@ -24,6 +24,9 @@
                 </form>
             </div>
         </div>
+        <div class="col-sm-2 col-sm-push-2 text-right" id="eco-engage">
+            <p class="no-marg"><img src="<?php echo get_template_directory_uri() . '/assets/img/eco-engage.png' ?>" alt="Logo eco-engage"></p>
+        </div>
     </aside>
 
 </footer>

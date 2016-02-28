@@ -181,7 +181,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     url('assets/fonts/ForteMTRegular.svg#ForteMTRegular') format('svg');
 }
 
-
 /***** General *****/
 
 html {
@@ -197,15 +196,15 @@ body {
     border-radius: 0 !important;
 }
 
-.no-padd{
+.no-padd {
     padding: 0 !important;
 }
 
-.no-marg{
+.no-marg {
     margin: 0 !important;
 }
 
-.titre-section{
+.titre-section {
     text-transform: uppercase;
     font-family: NeutraTextBoldSCAlt;
     font-size: 35px;
@@ -254,7 +253,7 @@ header img {
     margin: 0 20px;
 }
 
-.navigation li:last-of-type{
+.navigation li:last-of-type {
     margin-left: 20px;
     margin-right: 0;
 }
@@ -271,10 +270,9 @@ header img {
     transition: all 0.5s;
 }
 
-#menu-navig{
+#menu-navig {
     padding-right: 0;
 }
-
 
 #logo-quiz {
     position: absolute;
@@ -285,15 +283,13 @@ header img {
     padding-left: 0;
 }
 
-
-
 /***** Slider *****/
 
 #slider {
     position: relative !important;
 }
 
-#nav-lat{
+#nav-lat {
     position: absolute !important;
     z-index: 11 !important;
     -ms-transform: rotate(-90deg); /* IE 9 */
@@ -303,7 +299,7 @@ header img {
     left: -219px !important;
 }
 
-#nav-lat ul{
+#nav-lat ul {
     list-style-type: none;
 }
 
@@ -328,14 +324,14 @@ header img {
     color: #ff4402;
 }
 
-#reseaux{
+#reseaux {
     position: absolute !important;
     z-index: 11 !important;
     top: 170px !important;
     right: 44px !important;
 }
 
-#reseaux ul{
+#reseaux ul {
     list-style-type: none;
 }
 
@@ -348,7 +344,7 @@ header img {
     color: #fff;
     font-size: 25px;
     text-decoration: none;
-    padding: 6px 12px;
+    padding: 6px 10px;
     display: block;
     border-radius: 50%;
 }
@@ -357,9 +353,7 @@ header img {
     background-color: #ff4402;
 }
 
-
-
-#slider address{
+#slider address {
     position: absolute !important;
     top: 50% !important;
     left: 10% !important;
@@ -380,18 +374,10 @@ header img {
     line-height: 1.2;
 }
 
-#slider address span{
+#slider address span {
     font-family: NeutraTextLightAlt;
     line-height: 1.2;
 }
-
-
-
-
-
-
-
-
 
 /***** témoignages *****/
 
@@ -447,7 +433,7 @@ header img {
 }
 
 /*.temoin img {*/
-    /*margin: 0 20px 0 20px;*/
+/*margin: 0 20px 0 20px;*/
 /*}*/
 
 .temoin h4 {
@@ -458,7 +444,7 @@ header img {
     margin-bottom: 0 !important;
 }
 
-.temoin p{
+.temoin p {
     font-family: NeutraTextBookAlt;
     font-size: 20px;
     color: #2a2a2a;
@@ -481,7 +467,6 @@ header img {
     cursor: pointer;
 }
 
-
 /***** page références *****/
 
 #section-ref h2 {
@@ -497,16 +482,15 @@ header img {
     min-height: 140px;
 }
 
-.grayscale img
-{
+.grayscale img {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
 }
-.grayscale img:hover
-{
+
+.grayscale img:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
@@ -515,7 +499,6 @@ header img {
     transition: all 0.5s;
 }
 
-
 /***** bonnes adresses *****/
 
 #adresses-partenaires {
@@ -523,8 +506,8 @@ header img {
     padding-bottom: 66px;
 }
 
-#bonnes-adresses h2{
-    margin : 64px 0 31px 0;
+#bonnes-adresses h2 {
+    margin: 64px 0 31px 0;
 }
 
 #bonnes-adresses article {
@@ -546,7 +529,7 @@ header img {
     vertical-align: top;
 }
 
-#bonnes-adresses article p{
+#bonnes-adresses article p {
     font-family: NeutraTextDemiAlt;
     font-size: 20px;
     color: #2a2a2a;
@@ -554,6 +537,9 @@ header img {
     line-height: 1.2;
 }
 
+#filet {
+    padding: 15px 0 10px 0;
+}
 
 #adresse1 {
     font-family: NeutraTextBoldItalicAlt !important;
@@ -567,60 +553,88 @@ header img {
     font-size: 20px;
 }
 
-
 /***** Partenaires *****/
 
-#partenaires h2{
-    margin : 64px 0 31px 40px;
+#partenaires h2 {
+    margin: 64px 0 31px 40px;
 }
 
-.partenaires{
+.partenaires {
     border: 1px solid #000;
     margin: 0 9px 22px 9px;
 }
 
-.partenaires img{
+.partenaires img {
     display: block;
     text-align: center;
 }
 
-
-
 /***** footer *****/
 
 /***** footer *****/
 
-
-footer{
-    background-color: #031632;
+footer {
+    background-color: #2a2a2a;
 }
 
-.mentions > p{
+.mentions {
+    padding-top: 55px
+}
+
+.mentions > p {
     border-right: 1px solid #fff;
 }
 
-.mentions p{
-display: inline-block;
-padding-right: 10px;
+.mentions p {
+    font-family: NeutraTextDemiAlt;
+    font-size: 23px;
+    display: inline-block;
+    padding-right: 20px;
 }
 
-.mentions a{
-    text-decoration: none;
+.mentions a {
+    text-decoration: none !important;
     color: #fff;
-    font-weight: bold;
 }
 
 .wysija-paragraph {
     color: #fff;
     font-weight: bold;
+    padding-left: 20px;
 }
 
-#newsletter-valid{
+.wysija-input{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #626262;
+    font-size: 20px;
+    border-style: none;
+    margin-left: 20px;
+}
+
+.wysija-submit {
     display: inline-block;
-    }
+    height: 30px;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #ff4402;
+    border-style: none;
+    margin-left: -15px;
+    text-align: center;
+}
+
+#newsletter-valid {
+    display: inline-block;
+}
 
 .html_wysija {
     display: inline-block;
 }
+
+#eco-engage {
+    margin: 30px 0;
+}
+
 
 

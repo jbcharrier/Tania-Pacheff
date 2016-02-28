@@ -176,7 +176,7 @@ Template Name: Page Front-Page
                 <p>
                     <?php echo $bonne_addresse['post_content']; ?>
                 </p>
-                <p><img src="<?php echo get_template_directory_uri() . "/assets/img/filet.png" ?>" alt="Filet"></p>
+                <p id="filet"><img src="<?php echo get_template_directory_uri() . "/assets/img/filet.png" ?>" alt="Filet"></p>
                 <?php $address = get_post_meta(203, '_tp_meta_address', true); ?>
                 <p id="adresse1">
                     <?php echo $address['address1']; ?>
@@ -230,8 +230,6 @@ Template Name: Page Front-Page
     </section>
 </main>
 
-<?php get_footer(); ?>
-
 
 <!--        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">-->
 <!--            <div class="modal-dialog" role="document">-->
@@ -262,3 +260,5 @@ Template Name: Page Front-Page
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
+
+<?php get_footer(); ?>
