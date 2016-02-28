@@ -282,7 +282,7 @@ header img {
 /***** témoignages *****/
 
 #temoignages {
-    background-color: #3c7bd2;
+    background-color: #dad9d9;
 }
 
 .flip-container {
@@ -381,23 +381,65 @@ header img {
 
 /***** bonnes adresses *****/
 
-#bonnes-adresses {
+#adresses-partenaires {
     background-color: #dad9d9;
     padding-bottom: 66px;
 }
 
-#bonnes-adresses h2 {
-    margin : 64px 0 31px 40px;
+#bonnes-adresses h2{
+    margin : 64px 0 31px 0;
+}
+
+#bonnes-adresses article {
+    border: 1px solid #000;
+    overflow: hidden;
+
+}
+
+#img-bonne-adresse {
+    float: left;
+    padding-right: 30px;
+}
+
+#bonnes-adresses article h3 {
+    font-family: NeutraTextBoldSCAlt;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #2a2a2a;
+    vertical-align: top;
+}
+
+#bonnes-adresses article p{
+    font-family: NeutraTextDemiAlt;
+    font-size: 20px;
+    color: #2a2a2a;
+    margin-bottom: 0;
+    line-height: 1.2;
 }
 
 
+#adresse1 {
+    font-family: NeutraTextBoldItalicAlt !important;
+    color: #ff4402 !important;
+    font-size: 20px;
+}
+
+#adresse2 {
+    font-family: NeutraTextDemiItalicAlt !important;
+    color: #ff4402 !important;
+    font-size: 20px;
+}
 
 
 /***** Partenaires *****/
 
+#partenaires h2{
+    margin : 64px 0 31px 40px;
+}
+
 .partenaires{
     border: 1px solid #000;
-    margin: 9px;
+    margin: 0 9px 22px 9px;
 }
 
 .partenaires img{

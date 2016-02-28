@@ -19,9 +19,14 @@ Template Name: Page Front-Page
             </div>
         </contact>
     </section>
+
+<!--    Témoignages-->
+
     <section class="row" id="temoignages">
+        <div class="col-md-11 col-md-offset-1">
+            <h2 class="titre-section">Témoignages</h2>
+        </div>
         <div>
-            <h2>Témoignages</h2>
             <article>
                 <div class="flip-container">
                     <div class="flipper">
@@ -71,11 +76,34 @@ Template Name: Page Front-Page
 
     <!--    Mes bonnes adresses & partenaires -->
 
-    <section class="row" id="bonnes-adresses">
-        <div class="col-md-6 col-md-offset-1">
+    <section class="row" id="adresses-partenaires">
+        <section class="col-md-6 col-md-offset-1" id="bonnes-adresses">
             <h2 class="titre-section">Mes bonnes adresses</h2>
-        </div>
-        <section class="col-md-4 no-padd">
+            <article>
+                <?php $bonne_addresse = get_post(203, ARRAY_A); ?>
+                <p id="img-bonne-adresse">
+                    <?php echo get_the_post_thumbnail(203); ?>
+                </p>
+                <h3>
+                    <?php echo $bonne_addresse['post_title']; ?>
+                </h3>
+                <p>
+                    <?php echo $bonne_addresse['post_content']; ?>
+                </p>
+                <p><img src="<?php echo get_template_directory_uri() . "/assets/img/filet.png" ?>" alt="Filet"></p>
+                <?php $address = get_post_meta(203, '_tp_meta_address', true); ?>
+                <p id="adresse1">
+                    <?php echo $address['address1']; ?>
+                </p>
+                <p id="adresse2">
+                    <?php echo $address['address2']; ?>
+                </p>
+            </article>
+        </section>
+
+        <!-- partenaires -->
+
+        <section class="col-md-4 no-padd" id="partenaires">
             <h2 class="titre-section">Partenaires</h2>
             <div class="row">
                 <article class="col-md-5 col-md-offset-1 partenaires">

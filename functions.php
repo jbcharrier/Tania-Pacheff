@@ -24,6 +24,8 @@ function jbc_add_sidebar()
 }
 
 
+
+
 /*------- @remove admin header */
 
 add_action('get_header', 'remove_admin_login_header');
@@ -31,6 +33,8 @@ function remove_admin_login_header()
 {
     remove_action('wp_head', '_admin_bar_bump_cb');
 }
+
+
 
 
 /*------- @script header */
@@ -50,6 +54,8 @@ function jbc_setup_scripts()
 
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.js');
 }
+
+
 
 
 /*------- @Custom post type */
