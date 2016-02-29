@@ -216,6 +216,7 @@ body {
     margin: 0 !important;
 }
 
+
 /***** Header *****/
 
 header {
@@ -256,6 +257,7 @@ header img {
 .navigation li:last-of-type {
     margin-left: 20px;
     margin-right: 0;
+    font-family: ForteMTRegular;
 }
 
 .navigation a {
@@ -268,6 +270,14 @@ header img {
 .navigation a:hover {
     color: #ff4402;
     transition: all 0.5s;
+}
+
+.navigation li:last-of-type a {
+     color: #ff4402;
+}
+
+.navigation li:last-of-type a:hover {
+    color: #000;
 }
 
 #menu-navig {
@@ -353,6 +363,9 @@ header img {
     background-color: #ff4402;
 }
 
+
+/***** Cartouche contact *****/
+
 #slider address {
     position: absolute !important;
     top: 50% !important;
@@ -361,7 +374,7 @@ header img {
     color: #ff4402;
     border: 1px solid #ff4402;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 25px;
     font-size: 33px;
     -ms-transform: rotate(-5deg); /* IE 9 */
     -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
@@ -379,7 +392,24 @@ header img {
     line-height: 1.2;
 }
 
-/***** témoignages *****/
+.arrow-down{
+    position: absolute !important;
+    top: 85%;
+    left: 50%;
+    z-index: 10 !important;
+}
+
+.arrow-down i{
+    color: #fff;
+    font-size: 150px;
+}
+
+
+
+/*************************/
+/****** Témoignages ******/
+/*************************/
+
 
 #temoignages {
     background-color: #dad9d9;
@@ -456,13 +486,13 @@ header img {
 }
 
 .arrow i {
-    color: #fff;
+    color: #ff4402;
     font-size: 150px;
     vertical-align: middle;
 }
 
 .arrow i:hover {
-    color: #ff4402;
+    color: #fff;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -513,6 +543,7 @@ header img {
 #bonnes-adresses article {
     border: 1px solid #000;
     overflow: hidden;
+    padding-right: 20px
 
 }
 
@@ -538,7 +569,7 @@ header img {
 }
 
 #filet {
-    padding: 15px 0 10px 0;
+    padding: 5px 0 5px 0;
 }
 
 #adresse1 {
@@ -569,7 +600,88 @@ header img {
     text-align: center;
 }
 
-/***** footer *****/
+
+/***** Instagram *****/
+
+#instagram{
+    padding-top: 75px;
+    border-right: 1px solid #ff4402;
+}
+
+#instagram div {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 20px 20px 50px 20px;
+    margin: 35px 0 90px 0;
+}
+
+
+/***** Blog *****/
+
+#insta-blog section{
+    padding-top: 75px;
+    margin-left: 97px;
+}
+
+#insta-blog section h2{
+    font-family: ForteMTRegular;
+}
+
+.photo-blog{
+    border: 1px solid #ff4402;
+    margin-top: 35px;
+    max-height: 508px ;
+}
+
+.photo-blog a{
+    text-decoration: none !important;
+}
+
+.photo-blog:last-of-type{
+    margin-left: 30px;
+}
+
+.photo-blog img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+.txt-blog{
+    padding: 20px 20px 32px 20px;
+}
+
+.txt-blog h5{
+    font-family: NeutraTextBoldAlt;
+    text-transform: uppercase;
+    color: #ff4402;
+    font-size: 23px;
+}
+
+.txt-blog p{
+    font-family: NeutraTextDemiAlt;
+    font-size: 20px;
+    color: #000;
+}
+
+.txt-blog #suite{
+    background-color: #ff4402;
+    color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 4px 12px;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.txt-blog #suite:hover{
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.txt-blog #suite span{
+    font-size: 15px;
+    opacity: 0.6;
+    padding-left: 10px;
+}
 
 /***** footer *****/
 
