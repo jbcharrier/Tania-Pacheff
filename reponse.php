@@ -6,8 +6,6 @@ Template Name: Page reponse
 
 <?php get_header(); ?>
 
-
-
 <?php
 
 global $wpdb;
@@ -22,6 +20,7 @@ global $wpdb;
                                 FROM tp_quiz
                                 WHERE num_question = '1' AND reponse_int = 'non'", ARRAY_A);
     $count1 = count($responses1);
+
     $results1 = ceil(($count1 * 100)/$count_total1);
 
 

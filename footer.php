@@ -33,6 +33,8 @@
 
 
 </div>
+
+
 <!--START Scripts : this is the script part you can add to the header of your theme-->
 <!--<script type="text/javascript" src="http://localhost/tania_pacheff/wp-includes/js/jquery/jquery.js?ver=2.7"></script>-->
 <!--<script type="text/javascript"-->
