@@ -41,9 +41,9 @@ function jbc_setup_scripts()
 {
     wp_enqueue_style('style-css', get_stylesheet_uri());
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css');
+    wp_enqueue_style('fontawesome', "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
     wp_enqueue_script('jquery');
-    wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', ['jquery'], false, true);
-//    wp_enqueue_script('main-js', get_template_directory_uri() . '/assets/js/main.js', ['jquery'], false, true);
+    wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', ['jquery'], false);
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.js');
 }
 
@@ -51,10 +51,8 @@ function jbc_setup_scripts()
 /*------- @Custom post type */
 
 require_once TEMPLATEPATH . '/include/custom-post-type/tp_atelier.php';
-require_once TEMPLATEPATH . '/include/custom-post-type/tp_temoignage.php';
 require_once TEMPLATEPATH . '/include/custom-post-type/tp_references.php';
 require_once TEMPLATEPATH . '/include/custom-post-type/tp_bonnes_adresses.php';
-
 require_once TEMPLATEPATH . '/include/metabox/tp_meta_bonne_adresse.php';
 require_once TEMPLATEPATH . '/include/metabox/tp_meta_reference.php';
 

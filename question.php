@@ -6,6 +6,8 @@ Template Name: Page question
 
 <?php get_header(); ?>
 
+
+
 <section id="presentation">
     <div class="row">
         <div>
@@ -29,9 +31,9 @@ Template Name: Page question
     </div>
 </section>
 
-<main>
-    <form method="post" action="http://localhost/tania_pacheff/?page_id=66">
 
+<main>
+    <form method="post" action="<?php echo bloginfo('url') . '/?page_id=66' ?>">
         <section id="question1">
             <div class="row">
               <div class="col-xs-12">
@@ -65,7 +67,6 @@ Template Name: Page question
         </section>
 
 
-
         <section id="question3">
             <div class="row">
                 <div class="col-xs-12">
@@ -74,11 +75,11 @@ Template Name: Page question
                         total des émission ?(à plus ou moins 5 points)</label>
                     <input type="text" id="question3" name="question3"
                            placeholder="Entrez un chiffre à un ou deux chiffres...">
+                    <?php echo !empty($hasErrors['question3']) ? $hasErrors['question3'] : ''; ?>
                     <button id="btn-q3">Passer à la 4e question</button>
                 </div>
             </div>
         </section>
-
 
 
         <section id="question4">
@@ -96,7 +97,6 @@ Template Name: Page question
         </section>
 
 
-
         <section id="question5">
             <div class="row">
                 <div class="col-xs-12">
@@ -109,10 +109,8 @@ Template Name: Page question
                 </div>
             </div>
         </section>
-
         <input type="submit" value="Valider et découvrez votre score" name="input-score">
     </form>
-
 </main>
 
 <?php get_footer(); ?>

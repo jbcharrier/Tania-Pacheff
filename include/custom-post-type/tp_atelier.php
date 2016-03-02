@@ -24,7 +24,6 @@ function tp_create_atelier_custom()
         'query_var' => true,
         'rewrite' => true,
         'has_archive' => 'atelier',
-        //'menu_icon' => get_template_directory_uri() . '/images/py.png',
         'menu_position' => 3,
         'supports' => ['title', 'editor', 'excerpt', 'thumbnail', 'page-attributes']
     ]);

@@ -12,10 +12,31 @@
         <?php endif; ?>
     </title>
 
-    <meta name="description" content="">
+    <meta name="description" content="Site web de Tania Pacheff - Consultante diététicienne nutritionniste">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!--START Plugin newsletter Wysija-->
+    <script type="text/javascript" src="http://localhost/tania_pacheff/wp-includes/js/jquery/jquery.js?ver=2.7"></script>
+    <script type="text/javascript"
+            src="http://localhost/tania_pacheff/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-fr.js?ver=2.7"></script>
+    <script type="text/javascript"
+            src="http://localhost/tania_pacheff/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.7"></script>
+    <script type="text/javascript"
+            src="http://localhost/tania_pacheff/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wysijaAJAX = {
+            "action": "wysija_ajax",
+            "controller": "subscribers",
+            "ajaxurl": "http://localhost/tania_pacheff/wp-admin/admin-ajax.php",
+            "loadingTrans": "Chargement..."
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript"
+            src="http://localhost/tania_pacheff/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7"></script>
+<!--END Plugin newsletter Wysija-->
 
     <?php wp_head(); ?>
 
@@ -35,8 +56,7 @@
         <div class="col-xs-2">
             <h1>
                 <a href="<?php bloginfo('url'); ?>">
-                    <img src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/logo.png"
-                         alt="Logo de Tania Pacheff">
+                    <img src="<?php echo get_template_directory_uri() . '/assets/img/logo.png'; ?>" alt="Logo de Tania Pacheff">
                     <span class="hidden">
                         <?php bloginfo('name'); ?>
                     </span>
@@ -53,8 +73,8 @@
             wp_nav_menu($param_menu); ?>
         </div>
         <div class="col-xs-1" id="logo-quiz">
-            <a href="#">
-                <img src="http://localhost/tania_pacheff/wp-content/themes/tania_pacheff/assets/img/logo-quiz.png"
+            <a href="http://localhost/tania_pacheff/?page_id=64">
+                <img src="<?php echo get_template_directory_uri() . '/assets/img/logo-quiz.png' ?>"
                      alt="Logo quiz nutritionnel">
             </a>
         </div>

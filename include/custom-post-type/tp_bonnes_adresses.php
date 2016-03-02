@@ -24,7 +24,6 @@ function tp_create_bonnes_adresses_custom()
         'query_var' => true,
         'rewrite' => true,
         'has_archive' => 'bonne_adresse',
-        //'menu_icon' => get_template_directory_uri() . '/images/py.png',
         'menu_position' => 3,
         'supports' => ['title', 'thumbnail', 'editor', 'address1', 'addess2', 'page-attributes']
     ]);

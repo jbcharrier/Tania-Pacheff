@@ -5,6 +5,7 @@ Template Name: Page blog
 ?>
 
 <?php get_header(); ?>
+
     <main>
         <section class="row">
             <div class="col-xs-12">
@@ -37,6 +38,9 @@ Template Name: Page blog
                 <?php include(TEMPLATEPATH . '/searchform.php'); ?>
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>
+
+<!--            --><?php //get_template_part('loop'); ?>
+
 
         </section>
     </main>

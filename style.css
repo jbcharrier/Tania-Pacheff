@@ -334,6 +334,8 @@ header img {
     color: #ff4402;
 }
 
+
+
 #reseaux {
     position: absolute !important;
     z-index: 11 !important;
@@ -341,15 +343,15 @@ header img {
     right: 44px !important;
 }
 
-#reseaux ul {
+.reseaux ul {
     list-style-type: none;
 }
 
-#reseaux ul li {
+.reseaux ul li {
     margin: 10px 0 10px 0;
 }
 
-#reseaux ul li a {
+.reseaux ul li a {
     background-color: #000;
     color: #fff;
     font-size: 25px;
@@ -359,7 +361,7 @@ header img {
     border-radius: 50%;
 }
 
-#reseaux ul li a:hover {
+.reseaux ul li a:hover {
     background-color: #ff4402;
 }
 
@@ -369,7 +371,7 @@ header img {
 #slider address {
     position: absolute !important;
     top: 50% !important;
-    left: 10% !important;
+    left: 8% !important;
     background-color: #fff;
     color: #ff4402;
     border: 1px solid #ff4402;
@@ -392,9 +394,21 @@ header img {
     line-height: 1.2;
 }
 
+
+.citation{
+    position: absolute !important;
+    top: 60%;
+    left: 30%;
+    z-index: 10 !important;
+    font-family: NeutraTextBoldAlt;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
 .arrow-down{
     position: absolute !important;
-    top: 85%;
+    top: 72%;
     left: 50%;
     z-index: 10 !important;
 }
@@ -403,6 +417,9 @@ header img {
     color: #fff;
     font-size: 150px;
 }
+
+
+
 
 
 
@@ -550,6 +567,9 @@ header img {
 #img-bonne-adresse {
     float: left;
     padding-right: 30px;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
 }
 
 #bonnes-adresses article h3 {
@@ -567,6 +587,12 @@ header img {
     margin-bottom: 0;
     line-height: 1.2;
 }
+
+#bonnes-adresses article p img{
+
+}
+
+
 
 #filet {
     padding: 5px 0 5px 0;
@@ -599,6 +625,8 @@ header img {
     display: block;
     text-align: center;
 }
+
+
 
 
 /***** Instagram *****/
@@ -683,7 +711,149 @@ header img {
     padding-left: 10px;
 }
 
+
+
+
+
+/*************************/
+/***** Contactez-moi *****/
+/*************************/
+
+#page-form{
+    border-top: 1px solid  #ff4402;
+    padding-top: 170px;
+}
+
+#page-form h3 {
+    font-family: NeutraTextBoldAlt;
+    font-size: 45px;
+}
+
+#form{
+    background-color: #e5e5e5;
+    margin-top: 60px;
+}
+
+#form form{
+    margin-top: 32px;
+}
+
+#form form label{
+    font-family: NeutraTextBookAlt;
+    font-size: 25px;
+    color: #414141;
+}
+
+#form form input,
+#form form textarea {
+    font-family: NeutraTextBookAlt;
+    font-size: 25px;
+    width: 677px;
+    height: 47px;
+    padding-left: 20px;
+    border: 1px solid #ff4402;
+}
+
+#form form textarea{
+    height: 235px;
+}
+
+#end-form p{
+    font-family: NeutraTextBookAlt;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 225px;
+}
+
+#end-form input{
+    color: #fff;
+    background-color: #ff4402;
+    width: 200px !important;
+    height: 60px !important;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+
+/***********************/
+/***** Eco-engagée *****/
+/***********************/
+
+
+#eco-engage-top{
+    background-color: #dad9d9;
+    padding: 70px 0;
+}
+
+#eco-engage-top blockquote{
+    border: none;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+}
+
+.blockquote{
+    font-family: neutratextboldalt;
+    font-size: 55px;
+    color: #ff4402;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#reseaux-eco-engag {
+    position: absolute !important;
+    z-index: 11 !important;
+    top: 70px !important;
+    right: 44px !important;
+}
+
+#eco-engage-middle {
+    margin-top: 170px;
+}
+
+#eco-engage-middle h4{
+    font-family: neutratextboldalt;
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 31px;
+}
+
+#eco-engage-middle #h4-orange{
+    color: #ff4402;
+}
+
+#eco-engage-middle ul{
+    list-style-type: none;
+}
+
+#eco-engage-middle li,
+#eco-engage-middle p{
+    font-family: NeutraTextBookAlt;
+    font-size: 20px;
+}
+
+#eco-engage-middle img{
+    margin-bottom: 50px;
+}
+
+#eco-engage-bottom {
+    margin: 200px 0 130px 0;
+}
+
+#eco-engage-bottom blockquote{
+    border: none;
+}
+
+.no-style{
+    text-decoration: underline;
+    color: #ff4402;
+}
+
+/******************/
 /***** footer *****/
+/******************/
 
 footer {
     background-color: #2a2a2a;

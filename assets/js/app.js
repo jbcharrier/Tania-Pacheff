@@ -1,11 +1,17 @@
-(function($)
-{
     $(document).ready(function () {
+
+
+        $('#ecran1').css('height', (window.innerHeight-169) + 'px');
+
+        $("#message-contact").on('click', function () {
+            $("#myModal").modal("show");
+        });
 
         $('#btn-start').on('click', function(){
             $('html, body').animate( {
                 scrollTop: $('#question1').offset().top
             }, 1000);
+            console.log($('#question1').offset().top)
             return false;
         });
 
@@ -41,4 +47,3 @@
             return false;
         });
     });
-})(jQuery);
