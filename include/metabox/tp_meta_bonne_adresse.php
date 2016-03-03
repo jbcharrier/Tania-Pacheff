@@ -10,7 +10,6 @@ function tp_meta_bonne_adresse()
 
 function tp_field_site($post)
 {
-
     $_tp_meta_address = get_post_meta($post->ID, '_tp_meta_address', true);
 
     wp_nonce_field('tp_meta_address_field_verify', 'tp_meta_address_field_nonce');

@@ -1,5 +1,5 @@
 <footer class="row">
-    <!--    Formulaire inscription newsletter Wysija-->
+<!--    Formulaire inscription newsletter Wysija-->
     <aside>
         <div class="col-sm-6 col-sm-offset-1 mentions">
             <p><a href="#">Mentions légales</a></p>

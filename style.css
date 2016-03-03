@@ -9,7 +9,11 @@ License: GNU General Public License V2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-/***** Fonts *****/
+
+
+/*************************/
+/********* Fonts *********/
+/*************************/
 
 @font-face {
     font-family: 'NeutraTextLightSCItalicAlt';
@@ -181,7 +185,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     url('assets/fonts/ForteMTRegular.svg#ForteMTRegular') format('svg');
 }
 
-/***** General *****/
+
+
+
+/*************************/
+/******** Général ********/
+/*************************/
 
 html {
     margin-top: 0 !important;
@@ -217,7 +226,10 @@ body {
 }
 
 
-/***** Header *****/
+
+/*************************/
+/********* Header ********/
+/*************************/
 
 header {
     margin: 21px 0 19px 0;
@@ -293,7 +305,15 @@ header img {
     padding-left: 0;
 }
 
-/***** Slider *****/
+
+
+/*****************************************************************/
+/***************************** HOME ******************************/
+/*****************************************************************/
+
+/*************************/
+/********* Slider ********/
+/*************************/
 
 #slider {
     position: relative !important;
@@ -334,8 +354,6 @@ header img {
     color: #ff4402;
 }
 
-
-
 #reseaux {
     position: absolute !important;
     z-index: 11 !important;
@@ -366,7 +384,10 @@ header img {
 }
 
 
-/***** Cartouche contact *****/
+
+/*****************************/
+/***** Cartouche Contact *****/
+/*****************************/
 
 #slider address {
     position: absolute !important;
@@ -420,16 +441,13 @@ header img {
 
 
 
-
-
-
 /*************************/
 /****** Témoignages ******/
 /*************************/
 
 
 #temoignages {
-    background-color: #dad9d9;
+    background-color: #e6efc1;
     padding: 64px 0 66px 0;
 }
 
@@ -438,7 +456,7 @@ header img {
 }
 
 .flip-container {
-    perspective: 1000;
+    perspective: 1000px;
 }
 
 /* flip the pane when hovered */
@@ -479,10 +497,6 @@ header img {
     transform: rotateY(180deg);
 }
 
-/*.temoin img {*/
-/*margin: 0 20px 0 20px;*/
-/*}*/
-
 .temoin h4 {
     font-family: NeutraTextBoldAlt;
     font-size: 22px;
@@ -514,7 +528,11 @@ header img {
     cursor: pointer;
 }
 
-/***** page références *****/
+
+
+/***************************/
+/***** Page références *****/
+/***************************/
 
 #section-ref h2 {
     margin: 77px 0 34px 15px;
@@ -546,10 +564,14 @@ header img {
     transition: all 0.5s;
 }
 
-/***** bonnes adresses *****/
+
+
+/***************************/
+/***** Bonnes adresses *****/
+/***************************/
 
 #adresses-partenaires {
-    background-color: #dad9d9;
+    background-color: #e6efc1;
     padding-bottom: 66px;
 }
 
@@ -588,12 +610,6 @@ header img {
     line-height: 1.2;
 }
 
-#bonnes-adresses article p img{
-
-}
-
-
-
 #filet {
     padding: 5px 0 5px 0;
 }
@@ -610,7 +626,9 @@ header img {
     font-size: 20px;
 }
 
-/***** Partenaires *****/
+/*************************/
+/****** Partenaires ******/
+/*************************/
 
 #partenaires h2 {
     margin: 64px 0 31px 40px;
@@ -628,8 +646,9 @@ header img {
 
 
 
-
-/***** Instagram *****/
+/*************************/
+/******* Instagram *******/
+/*************************/
 
 #instagram{
     padding-top: 75px;
@@ -644,7 +663,10 @@ header img {
 }
 
 
-/***** Blog *****/
+
+/*************************/
+/********** Blog *********/
+/*************************/
 
 #insta-blog section{
     padding-top: 75px;
@@ -713,11 +735,9 @@ header img {
 
 
 
-
-
-/*************************/
-/***** Contactez-moi *****/
-/*************************/
+/**************************************************************************/
+/***************************** CONTACTEZ-MOI ******************************/
+/**************************************************************************/
 
 #page-form{
     border-top: 1px solid  #ff4402;
@@ -730,17 +750,18 @@ header img {
 }
 
 #form{
-    background-color: #e5e5e5;
+    background-color: #e6efc1;
     margin-top: 60px;
 }
 
 #form form{
     margin-top: 32px;
+    margin-bottom: 100px;
 }
 
-#form form label{
+#form form p{
     font-family: NeutraTextBookAlt;
-    font-size: 25px;
+    font-size: 30px;
     color: #414141;
 }
 
@@ -748,10 +769,11 @@ header img {
 #form form textarea {
     font-family: NeutraTextBookAlt;
     font-size: 25px;
-    width: 677px;
+    width: 100%;
     height: 47px;
-    padding-left: 20px;
+    padding-left: 25px;
     border: 1px solid #ff4402;
+    margin-bottom: 10px;
 }
 
 #form form textarea{
@@ -766,23 +788,21 @@ header img {
     margin-right: 225px;
 }
 
-#end-form input{
+#valider{
     color: #fff;
     background-color: #ff4402;
     width: 200px !important;
     height: 60px !important;
-    display: inline-block;
-    margin-bottom: 60px;
+    float: right;
 }
 
 
-/***********************/
-/***** Eco-engagée *****/
-/***********************/
-
+/***********************************************************************/
+/***************************** ECO-ENGAGE ******************************/
+/***********************************************************************/
 
 #eco-engage-top{
-    background-color: #dad9d9;
+    background-color: #e6efc1;
     padding: 70px 0;
 }
 
@@ -850,6 +870,74 @@ header img {
     text-decoration: underline;
     color: #ff4402;
 }
+
+
+/************************************************************************/
+/***************************** PRESTATIONS ******************************/
+/************************************************************************/
+
+.atelier {
+    margin-bottom: 20px;
+}
+
+#prestations-top {
+    background-color: #e6efc1;
+    text-align: center;
+    padding: 54px 0 68px 0;
+}
+
+#prestations1 {
+    font-family: neutratextbookalt;
+    font-size: 24px;
+}
+
+#prestations2 {
+    font-family: neutratextboldalt;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ff4402;
+}
+
+#main-presta {
+    margin: 57px 0 68px 0;
+}
+
+.thumbnail-presta {
+    border: none !important;
+    margin-bottom: 0 !important;
+}
+
+.atelier h2{
+    font-family: neutratextboldalt;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: #1d1d1b;
+    margin: 20px 0;
+}
+
+
+
+/****************************/
+/***** Post prestations *****/
+/****************************/
+
+#single-atelier{
+    font-family: NeutraTextBookAlt;
+}
+
+.contact-prestation{
+    font-family: NeutraTextBoldAlt;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.text-prestations{
+    font-size: 20px
+}
+
+
 
 /******************/
 /***** footer *****/

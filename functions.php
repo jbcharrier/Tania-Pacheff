@@ -57,3 +57,8 @@ require_once TEMPLATEPATH . '/include/metabox/tp_meta_bonne_adresse.php';
 require_once TEMPLATEPATH . '/include/metabox/tp_meta_reference.php';
 
 
+/*------- @Sécurité */
+
+add_filter('login_errors',create_function('$erreur', "return 'Erreur de connexion';"));
+remove_action('wp_head', 'wp_generator');
+

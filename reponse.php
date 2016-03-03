@@ -10,27 +10,10 @@ Template Name: Page reponse
 
 global $wpdb;
 
-//
-//$rep1 = $_POST['question1'];
-//$wpdb->query($wpdb->prepare(
-//    "INSERT INTO tp_quiz(num_question, reponse_int, reponse_quiz)
-//    VALUES (%d, %s, %s)",
-//    1, $rep1, $sol1));
-
-
-$total1 = $wpdb->query($wpdb->prepare(
-            "SELECT *
-            FROM tp_quiz
-            WHERE num_question =%d",
-            1));
-$count_total1 = count($total1);
-
-
-//
-//    $total1 = $wpdb->get_results("SELECT *
-//                                FROM tp_quiz
-//                                WHERE num_question = '1'", ARRAY_A);
-//    $count_total1 = count($total1);
+    $total1 = $wpdb->get_results("SELECT *
+                                FROM tp_quiz
+                                WHERE num_question = '1'", ARRAY_A);
+    $count_total1 = count($total1);
 
     $responses1 = $wpdb->get_results("SELECT *
                                 FROM tp_quiz
@@ -38,9 +21,6 @@ $count_total1 = count($total1);
     $count1 = count($responses1);
 
     $results1 = ceil(($count1 * 100)/$count_total1);
-
-
-
 ?>
     <main>
 

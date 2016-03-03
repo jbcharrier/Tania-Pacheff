@@ -39,16 +39,16 @@ Template Name: Page Front-Page
         </section>
 
         <!--    Témoignages-->
-        <section id="temoignages">
-            <div class="row no-padd no-marg">
-                <div class="col-md-11 col-md-offset-1">
-                    <h2 class="titre-section">Témoignages</h2>
-                </div>
+        <section class="row" id="temoignages">
+            <div class="col-md-11 col-md-offset-1">
+                <h2 class="titre-section">Témoignages</h2>
             </div>
             <div class="row no-padd no-marg">
                 <div class="col-md-1 arrow text-center">
                     <i class="fa fa-angle-left"></i>
                 </div>
+<!--            </div>-->
+<!--            <div class="row no-padd no-marg">-->
                 <div class="col-md-10">
                     <div class="row no-padd">
                         <article class="col-md-3 temoin">
@@ -139,6 +139,7 @@ Template Name: Page Front-Page
             </div>
         </section>
 
+
         <!--    Ils me font confiance-->
         <section class="row" id="section-ref">
             <div class="col-md-10 col-md-offset-1 no-padd">
@@ -163,16 +164,21 @@ Template Name: Page Front-Page
                     <?php endwhile; ?>
                     <?php
                 } ?>
+                <?php wp_reset_postdata(); ?>
             </div>
         </section>
 
-
-<!--    Mes bonnes adresses & partenaires -->
+        <!--    Mes bonnes adresses & partenaires -->
         <section class="row" id="adresses-partenaires">
             <section class="col-md-6 col-md-offset-1" id="bonnes-adresses">
                 <h2 class="titre-section">Mes bonnes adresses</h2>
                 <article>
                     <?php $bonne_addresse = get_post(203, ARRAY_A); ?>
+                    <!--                    --><?php //global $wpdb;
+                    //                    $bonne_addresse = $wpdb->get_results(
+                    //                    "SELECT *
+                    //                    FROM tp_posts
+                    //                    WHERE post_type='bonne_adresse'", ARRAY_A); ?>
                     <div id="img-bonne-adresse">
                         <?php echo get_the_post_thumbnail(203); ?>
                     </div>
@@ -194,7 +200,8 @@ Template Name: Page Front-Page
                 </article>
             </section>
 
-<!-- partenaires -->
+
+            <!-- partenaires -->
             <section class="col-md-4 no-padd" id="partenaires">
                 <h2 class="titre-section">Partenaires</h2>
                 <div class="row">
@@ -226,7 +233,7 @@ Template Name: Page Front-Page
             </section>
         </section>
 
-<!--        Instagram - Blog-->
+        <!--        Instagram - Blog-->
         <section id="insta-blog">
             <div class=row>
                 <aside class="col-sm-5 col-sm-offset-1" id="instagram">
@@ -258,6 +265,7 @@ Template Name: Page Front-Page
                             </div>
                         </article>
                     <?php endwhile; ?>
+                    <?php wp_reset_postdata(); ?>
                 </section>
             </div>
         </section>

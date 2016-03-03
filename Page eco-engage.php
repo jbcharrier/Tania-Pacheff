@@ -65,7 +65,7 @@ Template Name: Page eco-engage
                 <div class="col-md-8 col-md-offset-2">
                     <blockquote class="text-center">
                         <p class="blockquote">
-                            <a href="<?php bloginfo('url').'/?page_id=16'?>" class="no-style">Découvrez mes prestations</a> et relevons ensemble
+                            <a href="<?php echo bloginfo('url').'/?page_id=16'?>" class="no-style">Découvrez mes prestations</a> et relevons ensemble
                             les nouveaux défis de l’alimentation moderne !
                         </p>
                     </blockquote>

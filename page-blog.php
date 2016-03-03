@@ -39,9 +39,6 @@ Template Name: Page blog
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>
 
-<!--            --><?php //get_template_part('loop'); ?>
-
-
         </section>
     </main>
 
