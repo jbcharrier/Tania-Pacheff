@@ -6,110 +6,190 @@ Template Name: Page question
 
 <?php get_header(); ?>
 
+<main id="main-quiz">
 
-
-<section id="presentation">
-    <div class="row">
-        <div>
-            <h2>TITRE : Quizz nutritionnel</h2>
-            <p>PRESENTATION : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum massa sit
-                amet
-                felis varius egestas quis id sem. Suspendisse hendrerit purus non purus condimentum facilisis. Curabitur
-                placerat ut ipsum vitae consequat. Cum sociis natoque penatibus et magnis dis parturient montes,
-                nascetur
-                ridiculus mus. Pellentesque sit amet commodo purus. Nam ut accumsan ipsum. Donec auctor vehicula eros,
-                id
-                placerat velit tincidunt quis. Fusce consequat tortor vitae odio euismod auctor. Nullam lobortis lectus
-                sit amet
-                mi tempus, vel maximus metus rutrum. Phasellus porttitor egestas ipsum vel pellentesque. Vestibulum
-                ultrices
-                vitae nibh at mattis. Suspendisse in mi eget elit tempor congue vel quis nisi. Maecenas pharetra
-                pharetra
-                sodales.</p>
-            <button id="btn-start">Commencer le quizz</button>
+    <section class="row cercle-fond0">
+        <div id="ecran-commencer" class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4 text-center">
+                    <p>Bienvenue sur mon Quiz Nutritionnel :
+                        Testez vos connaissances en diététique
+                        et débusquez les idées reçues !
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <button class="btn-start">Commencer le Quiz</button>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-<main>
     <form method="post" action="<?php echo bloginfo('url') . '/?page_id=66' ?>">
-        <section id="question1">
-            <div class="row">
-              <div class="col-xs-12">
-                <h3>Question n°1</h3>
-                <p>Le réchauffement climatique s'accentue ?</p>
-                <input type="radio" name="question1" id="question1_oui" value="oui"> <label
-                    for="question1_oui">Oui</label>
-                <input type="radio" name="question1" id="question1_non" value="non"> <label
-                    for="question1_non">Non</label>
-                  <button id="btn-q1">Passer à la 2e question</button>
-              </div>
-            </div>
-        </section>
 
-
-        <section id="question2">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h3>Question n°2</h3>
-                    <p>Quel est le fruit ayant le plus de vitamine C ?</p>
-                    <input id="fruit1" type="radio" name="question2" value="kiwi"> <label
-                        for="fruit1">Kiwi</label>
-                    <input id="fruit2" type="radio" name="question2" value="pomme"> <label for="fruit2">Pomme</label>
-                    <input id="fruit3" type="radio" name="question2" value="tomate"> <label
-                        for="fruit3">Tomate</label>
-                    <input id="fruit4" type="radio" name="question2" value="cerise"> <label
-                        for="fruit4">Cerise</label>
-                    <button id="btn-q2">Passer à la 3e question</button>
+        <section class="row cercle-fond">
+            <div id="question1" class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-offset-4 question text-center">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <h3 class="text-left">Question 1</h3>
+                                <p class="text-left">Quelle est la quantité de sel dont l’homme à besoin par jour ?</p>
+                                <input type="radio" name="question1" id="question1_0" value="0"> <label
+                                    for="question1_0">0gr</label>
+                                <input type="radio" name="question1" id="question1_2" value="2"> <label
+                                    for="question1_2">2gr</label>
+                                <input type="radio" name="question1" id="question1_10" value="10"> <label
+                                    for="question1_10">10gr</label>
+                                <h5 class="text-left">Le saviez-vous ?</h5>
+                                <p class="saviez-vous text-left">Le sodium est un minéral qui joue un rôle important
+                                    dans l’état
+                                    d’hydratation de l’organisme.
+                                    Le sodium aide également à maintenir l’équilibre acido-basique et est essentiel
+                                    dans la transmission des influx nerveux ainsi que la contraction musculaire.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <button class="btn-q" id="btn-q1">Passer à la question suivante</button>
+                    </div>
                 </div>
             </div>
         </section>
 
 
-        <section id="question3">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h3>Question n°3</h3>
-                    <label for="question3">Quel est le pourcentage d'émission de gaz à effet de serre de la Chine sur le
-                        total des émission ?(à plus ou moins 5 points)</label>
-                    <input type="text" id="question3" name="question3"
-                           placeholder="Entrez un chiffre à un ou deux chiffres...">
-                    <?php echo !empty($hasErrors['question3']) ? $hasErrors['question3'] : ''; ?>
-                    <button id="btn-q3">Passer à la 4e question</button>
+        <section class="row cercle-fond2">
+            <div id="question2" class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-offset-4 question2 text-center">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <h3 class="text-left">Question 2</h3>
+                                <p class="text-left">Quelle est la quantité de sel moyenne consommée par personne, par jour en France ?</p>
+                                <input type="radio" name="question2" id="question2_6" value="6"> <label
+                                    for="question2_6">6gr</label>
+                                <input type="radio" name="question2" id="question2_10" value="10"> <label
+                                    for="question2_10">10gr</label>
+                                <input type="radio" name="question2" id="question2_15" value="15"> <label
+                                    for="question2_15">15gr</label>
+                                <h5 class="text-left">Le saviez-vous ?</h5>
+                                <p class="saviez-vous2 text-left">Le sodium est un minéral qui joue un rôle important
+                                    dans l’état d’hydratation de l’organisme.
+                                    Le sodium aide également à maintenir l’équilibre acido-basique et est essentiel
+                                    dans la transmission des influx nerveux ainsi que la contraction musculaire.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <button class="btn-q2" id="btn-q2">Passer à la question suivante</button>
+                    </div>
                 </div>
             </div>
         </section>
 
 
-        <section id="question4">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h3>Question n°4</h3>
-                    <p>Le réchauffement climatique s'accentue ?</p>
-                    <input type="radio" name="question4" id="question4_oui" value="oui"> <label
-                        for="question1_oui">Oui</label>
-                    <input type="radio" name="question4" id="question4_non" value="non"> <label
-                        for="question4_non">Non</label>
-                    <button id="btn-q4">Passer à la dernière question du quizz</button>
+        <section class="row cercle-fond">
+            <div id="question3" class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-offset-4 question text-center">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <h3 class="text-left">Question 3</h3>
+                                <p class="text-left">Quelle est la consommation maximum de sel recommandée par jour ?</p>
+                                <input type="radio" name="question3" id="question3_2" value="2"> <label
+                                    for="question3_2">0gr</label>
+                                <input type="radio" name="question3" id="question3_5" value="5"> <label
+                                    for="question3_5">2gr</label>
+                                <input type="radio" name="question3" id="question3_10" value="10"> <label
+                                    for="question3_10">10gr</label>
+                                <h5 class="text-left">Le saviez-vous ?</h5>
+                                <p class="saviez-vous text-left">Le sodium est un minéral qui joue un rôle important
+                                    dans l’état d’hydratation de l’organisme.
+                                    Le sodium aide également à maintenir l’équilibre acido-basique et est essentiel
+                                    dans la transmission des influx nerveux ainsi que la contraction musculaire.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <button class="btn-q" id="btn-q3">Passer à la question suivante</button>
+                    </div>
                 </div>
             </div>
         </section>
 
 
-        <section id="question5">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h3>Question n°5</h3>
-                    <p>Le réchauffement climatique s'accentue ?</p>
-                    <input type="radio" name="question5" id="question5_oui" value="oui"> <label
-                        for="question5_oui">Oui</label>
-                    <input type="radio" name="question5" id="question5_non" value="non"> <label
-                        for="question5_non">Non</label>
+        <section class="row cercle-fond2">
+            <div id="question4" class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-offset-4 question2 text-center">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <h3 class="text-left">Question 4</h3>
+                                <p class="text-left">Combien de morceaux de sucre sont contenus dans une cannette de 33cl de soda?</p>
+                                <input type="radio" name="question4" id="question4_5" value="5"> <label
+                                    for="question4_5">5gr</label>
+                                <input type="radio" name="question4" id="question4_7" value="7"> <label
+                                    for="question4_7">7gr</label>
+                                <input type="radio" name="question4" id="question4_9" value="9"> <label
+                                    for="question4_9">9gr</label>
+                                <h5 class="text-left">Le saviez-vous ?</h5>
+                                <p class="saviez-vous2 text-left">Le sodium est un minéral qui joue un rôle important
+                                    dans l’état d’hydrataton de l’organisme.
+                                    Le sodium aide également à maintenir l’équilibre acido-basique et est essentiel
+                                    dans la transmission des influx nerveux ainsi que la contraction musculaire.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <button class="btn-q2" id="btn-q4">Passer à la question suivante</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <input type="submit" value="Valider et découvrez votre score" name="input-score">
+
+        <section class="row cercle-fond-der">
+            <div id="question5" class="col-xs-12">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-offset-4 question-der text-center">
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <h3 class="text-left">Question 5</h3>
+                                <p class="text-left">Un jus de raisin de 33cl est-t-il moins sucré qu'un soda ?</p>
+                                <input type="radio" name="question5" id="question5_oui" value="oui"> <label
+                                    for="question5_oui">Oui</label>
+                                <input type="radio" name="question5" id="question5_non" value="non"> <label
+                                    for="question5_non">Non</label>
+                                <h5 class="text-left">Le saviez-vous ?</h5>
+                                <p class="saviez-vous text-left">Le sodium est un minéral qui joue un rôle important
+                                    dans l’état d’hydratation de l’organisme.
+                                    Le sodium aide également à maintenir l’équilibre acido-basique et est essentiel
+                                    dans la transmission des influx nerveux ainsi que la contraction musculaire.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <input class="btn-qder" id="btn-q5 "type="submit" value="Voir mon score" name="input-score">
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </form>
 </main>
 

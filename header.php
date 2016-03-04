@@ -12,6 +12,7 @@
         <?php endif; ?>
     </title>
 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Site web de Tania Pacheff - Consultante diététicienne nutritionniste">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -45,14 +46,14 @@
 <!--    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>-->
 <!--    <![endif]-->
 </head>
-<body>
+<body id="page">
 <!--[if lt IE 8]>-->
 <!--<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade-->
 <!--your browser</a> to improve your experience.</p>-->
 <!--<![endif]-->
 
 <div class="container-fluid">
-    <header class="row">
+     <header class="row">
         <div class="col-xs-2">
             <h1>
                 <a href="<?php bloginfo('url'); ?>">
@@ -79,3 +80,4 @@
             </a>
         </div>
     </header>
+

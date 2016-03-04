@@ -31,10 +31,10 @@ Template Name: Page atelier
                 <section class="row">
                     <?php $loop = new WP_Query(array('post_type' => 'atelier', 'posts_per_page' => 16));
                     while ($loop->have_posts()) : $loop->the_post(); ?>
-                        <article class="atelier col-xs-12 col-sm-3">
+                        <article class="col-xs-3 mosaique-prestas">
                             <a href="<?php the_permalink(); ?>">
                                 <?php if (has_post_thumbnail()): ?>
-                                    <div class="thumbnail thumbnail-presta">
+                                    <div class="thumbnail-presta">
                                         <?php the_post_thumbnail('full'); ?>
                                     </div>
                                 <?php endif; ?>

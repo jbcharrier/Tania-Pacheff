@@ -8,8 +8,17 @@ Template Name: Page Front-Page
 
     <main>
         <!--Slider-->
+
         <section class="row" id="slider">
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/visuel-home1.png' ?>"
+            <ul class="cb-slideshow no-padd no-marg">
+                <li><span>Image 01</span><div class="no-padd no-marg"><h3 class="no-padd no-marg">Des ateliers culinaires sur mesure</h3></div></li>
+                <li><span>Image 02</span><div><h3>L’alimentation eco-engagée un levier de performance</h3></div></li>
+                <li><span>Image 03</span><div><h3>Restez en forme, sans se priver</h3></div></li>
+                <li><span>Image 04</span><div><h3>L'éveil au goût des enfants</h3></div></li>
+            </ul>
+            <div class="containers no-padd no-marg"></div>
+
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/5.jpg' ?>"
                  class="img-responsive">
             <nav id="nav-lat">
                 <ul class="no-marg no-padd">
@@ -19,7 +28,7 @@ Template Name: Page Front-Page
             </nav>
 
             <aside class="reseaux" id="reseaux">
-                <ul class="no-marg no-padd">
+                <ul>
                     <li class="text-center"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                     <li class="text-center"><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li class="text-center"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -32,7 +41,7 @@ Template Name: Page Front-Page
                 <p class="no-marg"><span>Consultante <br> diététicienne <br> nutritionniste</span></p>
                 <p class="no-marg">06 62 06 90 23</p>
             </address>
-            <p class="citation">L'alimentation éco-engagée, un levier de performance</p>
+
             <div class="arrow-down text-center">
                 <i class="fa fa-angle-down"></i>
             </div>
@@ -47,8 +56,6 @@ Template Name: Page Front-Page
                 <div class="col-md-1 arrow text-center">
                     <i class="fa fa-angle-left"></i>
                 </div>
-<!--            </div>-->
-<!--            <div class="row no-padd no-marg">-->
                 <div class="col-md-10">
                     <div class="row no-padd">
                         <article class="col-md-3 temoin">

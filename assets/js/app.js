@@ -1,17 +1,21 @@
     $(document).ready(function () {
 
 
-        $('#ecran1').css('height', (window.innerHeight-169) + 'px');
+        $('#ecran-commencer').css('height', (window.innerHeight-169) + 'px');
+        $('#question1').css('height', (window.innerHeight) + 'px');
+        $('#question2').css('height', (window.innerHeight) + 'px');
+        $('#question3').css('height', (window.innerHeight) + 'px');
+        $('#question4').css('height', (window.innerHeight) + 'px');
+        $('#question5').css('height', (window.innerHeight-169) + 'px');
 
         $("#message-contact").on('click', function () {
             $("#myModal").modal("show");
         });
 
-        $('#btn-start').on('click', function(){
+        $('.btn-start').on('click', function(){
             $('html, body').animate( {
                 scrollTop: $('#question1').offset().top
             }, 1000);
-            console.log($('#question1').offset().top)
             return false;
         });
 
