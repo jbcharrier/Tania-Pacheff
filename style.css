@@ -326,7 +326,7 @@ header img {
     -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
     transform: rotate(-90deg);
     top: 340px !important;
-    left: -219px !important;
+    left: -233px !important;
 }
 
 #nav-lat ul {
@@ -1029,10 +1029,10 @@ footer {
     z-index: 0;
     list-style-type: none;
 }
-/*.cb-slideshow:after {*/
-    /*content: '';*/
-    /*background: transparent url(assets/img/pattern.png) repeat top left;*/
-/*}*/
+.cb-slideshow:after {
+    content: '';
+    background: transparent url(assets/img/pattern.png) repeat top left;
+}
 .cb-slideshow li span {
     width: 100%;
     height: 100%;
@@ -1554,4 +1554,70 @@ footer {
     color: #ff4402;
     background-color: #fff;
     border: 3px solid #ff4402;
+}
+
+
+
+/***********************************************************************/
+/***************************** Références ******************************/
+/***********************************************************************/
+
+#reference {
+    background-color: #e6efc1;
+    padding: 70px 0;
+    font-family: NeutraTextBoldAlt;
+    font-size: 30px;
+}
+
+#reference p:first-of-type {
+    margin-bottom: 30px;
+}
+
+#reference span{
+    color: #ff4402;
+}
+
+#main-ref{
+padding-top: 90px;
+}
+
+#main-ref h2{
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+
+#tem-ref {
+    padding: 64px 0 100px 0;
+}
+
+#tem-ref h2 {
+    margin-bottom: 34px !important;
+}
+
+.temoin-ref h4{
+font-family: NeutraTextBoldAlt;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.temoin-ref p{
+    font-family: NeutraTextBookAlt;
+    font-size: 20px;
+}
+
+#arrow-refl,
+#arrow-refr{
+    height: 500px;
+    line-height: 500px;
+}
+
+#ref-down{
+    font-family: NeutraTextBoldAlt;
+    background-color: #e6efc1;
+    font-size: 30px;
+    padding: 90px 0;
+}
+
+#ref-down span{
+    color: #ff4402;
 }

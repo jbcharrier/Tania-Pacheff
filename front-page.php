@@ -22,7 +22,7 @@ Template Name: Page Front-Page
                  class="img-responsive">
             <nav id="nav-lat">
                 <ul class="no-marg no-padd">
-                    <li><a href="#">Tutoriels</a></li>
+                    <li><a href="#">Mes astuces</a></li>
                     <li><a href="<?php echo site_url() . '/?page_id=234' ?>">Mes bonnes adresses</a></li>
                 </ul>
             </nav>
