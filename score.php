@@ -80,7 +80,7 @@ $score = 0;
                 } ?>
             </div>
         </section>
-        <section class="row text-center" id="score-button">
+        <section class="row text-center score-button">
             <div class="col-sm-6 col-sm-offset-3">
                 <a href="<?php echo bloginfo('url') . '/?page_id=83' ?>">
                     <p>Découvrir les réponses</p>

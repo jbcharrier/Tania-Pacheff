@@ -13,8 +13,6 @@ Template Name: Page atelier
                 <?php while (have_posts()) : the_post(); ?>
                     <article class="post" id="post-<?php the_ID(); ?>">
                         <?php the_content(); ?>
-                        <p class="categories"><?php the_category(', '); ?></p>
-                        <p class="tags"><?php the_tags('Mots-clés : ', ', '); ?></p>
                     </article>
                 <?php endwhile; ?>
             <?php else : ?>
@@ -22,6 +20,15 @@ Template Name: Page atelier
                 <?php include(TEMPLATEPATH . '/searchform.php'); ?>
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>
+            <div id="nav-cat">
+                <?php
+                $param_menu = [
+                    'theme_location' => 'secondary',
+                    'container' => 'nav',
+                    'container_class' => 'nav-category'
+                ];
+                wp_nav_menu($param_menu); ?>
+            </div>
         </div>
     </section>
 

@@ -9,8 +9,6 @@ License: GNU General Public License V2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-
-
 /*************************/
 /********* Fonts *********/
 /*************************/
@@ -185,9 +183,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     url('assets/fonts/ForteMTRegular.svg#ForteMTRegular') format('svg');
 }
 
-
-
-
 /*************************/
 /******** Général ********/
 /*************************/
@@ -224,8 +219,6 @@ body {
     padding: 0 !important;
     margin: 0 !important;
 }
-
-
 
 /*************************/
 /********* Header ********/
@@ -285,7 +278,7 @@ header img {
 }
 
 .navigation li:last-of-type a {
-     color: #ff4402;
+    color: #ff4402;
 }
 
 .navigation li:last-of-type a:hover {
@@ -304,8 +297,6 @@ header img {
     z-index: 10;
     padding-left: 0;
 }
-
-
 
 /*****************************************************************/
 /***************************** HOME ******************************/
@@ -383,8 +374,6 @@ header img {
     background-color: #ff4402;
 }
 
-
-
 /*****************************/
 /***** Cartouche Contact *****/
 /*****************************/
@@ -415,25 +404,21 @@ header img {
     line-height: 1.2;
 }
 
-
-.arrow-down{
+.arrow-down {
     position: absolute !important;
     top: 70%;
     left: 50%;
     z-index: 10 !important;
 }
 
-.arrow-down i{
+.arrow-down i {
     color: #fff;
     font-size: 150px;
 }
 
-
-
 /*************************/
 /****** Témoignages ******/
 /*************************/
-
 
 #temoignages {
     background-color: #e6efc1;
@@ -517,8 +502,6 @@ header img {
     cursor: pointer;
 }
 
-
-
 /***************************/
 /***** Page références *****/
 /***************************/
@@ -552,8 +535,6 @@ header img {
     -ms-filter: grayscale(0);
     transition: all 0.5s;
 }
-
-
 
 /***************************/
 /***** Bonnes adresses *****/
@@ -633,13 +614,11 @@ header img {
     text-align: center;
 }
 
-
-
 /*************************/
 /******* Instagram *******/
 /*************************/
 
-#instagram{
+#instagram {
     padding-top: 75px;
     border-right: 1px solid #ff4402;
 }
@@ -651,32 +630,30 @@ header img {
     margin: 35px 0 90px 0;
 }
 
-
-
 /*************************/
 /********** Blog *********/
 /*************************/
 
-#insta-blog section{
+#insta-blog section {
     padding-top: 75px;
     margin-left: 97px;
 }
 
-#insta-blog section h2{
+#insta-blog section h2 {
     font-family: ForteMTRegular;
 }
 
-.photo-blog{
+.photo-blog {
     border: 1px solid #ff4402;
     margin-top: 35px;
-    max-height: 508px ;
+    max-height: 508px;
 }
 
-.photo-blog a{
+.photo-blog a {
     text-decoration: none !important;
 }
 
-.photo-blog:last-of-type{
+.photo-blog:last-of-type {
     margin-left: 30px;
 }
 
@@ -686,24 +663,24 @@ header img {
     display: block !important;
 }
 
-.txt-blog{
+.txt-blog {
     padding: 20px 20px 32px 20px;
 }
 
-.txt-blog h5{
+.txt-blog h5 {
     font-family: NeutraTextBoldAlt;
     text-transform: uppercase;
     color: #ff4402;
     font-size: 23px;
 }
 
-.txt-blog p{
+.txt-blog p {
     font-family: NeutraTextDemiAlt;
     font-size: 20px;
     color: #000;
 }
 
-.txt-blog #suite{
+.txt-blog #suite {
     background-color: #ff4402;
     color: #fff;
     border-radius: 8px;
@@ -712,24 +689,22 @@ header img {
     box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
-.txt-blog #suite:hover{
+.txt-blog #suite:hover {
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
-.txt-blog #suite span{
+.txt-blog #suite span {
     font-size: 15px;
     opacity: 0.6;
     padding-left: 10px;
 }
 
-
-
 /**************************************************************************/
 /***************************** CONTACTEZ-MOI ******************************/
 /**************************************************************************/
 
-#page-form{
-    border-top: 1px solid  #ff4402;
+#page-form {
+    border-top: 1px solid #ff4402;
     padding-top: 170px;
 }
 
@@ -738,17 +713,17 @@ header img {
     font-size: 45px;
 }
 
-#form{
+#form {
     background-color: #e6efc1;
     margin-top: 60px;
 }
 
-#form form{
+#form form {
     margin-top: 32px;
     margin-bottom: 100px;
 }
 
-#form form p{
+#form form p {
     font-family: NeutraTextBookAlt;
     font-size: 30px;
     color: #414141;
@@ -765,11 +740,11 @@ header img {
     margin-bottom: 10px;
 }
 
-#form form textarea{
+#form form textarea {
     height: 235px;
 }
 
-#end-form p{
+#end-form p {
     font-family: NeutraTextBookAlt;
     font-size: 25px;
     display: inline-block;
@@ -777,7 +752,7 @@ header img {
     margin-right: 225px;
 }
 
-#valider{
+#valider {
     color: #fff;
     background-color: #ff4402;
     width: 200px !important;
@@ -785,24 +760,23 @@ header img {
     float: right;
 }
 
-
 /***********************************************************************/
 /***************************** ECO-ENGAGE ******************************/
 /***********************************************************************/
 
-#eco-engage-top{
+#eco-engage-top {
     background-color: #e6efc1;
     padding: 70px 0;
 }
 
-#eco-engage-top blockquote{
+#eco-engage-top blockquote {
     border: none;
     height: 400px;
     line-height: 400px;
     text-align: center;
 }
 
-.blockquote{
+.blockquote {
     font-family: neutratextboldalt;
     font-size: 55px;
     color: #ff4402;
@@ -822,28 +796,28 @@ header img {
     margin-top: 170px;
 }
 
-#eco-engage-middle h4{
+#eco-engage-middle h4 {
     font-family: neutratextboldalt;
     font-size: 35px;
     color: #000;
     margin-bottom: 31px;
 }
 
-#eco-engage-middle #h4-orange{
+#eco-engage-middle #h4-orange {
     color: #ff4402;
 }
 
-#eco-engage-middle ul{
+#eco-engage-middle ul {
     list-style-type: none;
 }
 
 #eco-engage-middle li,
-#eco-engage-middle p{
+#eco-engage-middle p {
     font-family: NeutraTextBookAlt;
     font-size: 20px;
 }
 
-#eco-engage-middle img{
+#eco-engage-middle img {
     margin-bottom: 50px;
 }
 
@@ -851,7 +825,7 @@ header img {
     margin: 200px 0 130px 0;
 }
 
-#eco-engage-bottom blockquote{
+#eco-engage-bottom blockquote {
     border: none;
 }
 
@@ -871,7 +845,6 @@ header img {
     color: #ff4402;
     border: 3px solid #ff4402;
 }
-
 
 /************************************************************************/
 /***************************** PRESTATIONS ******************************/
@@ -899,11 +872,33 @@ header img {
     color: #ff4402;
 }
 
+#nav-cat {
+    padding-top: 15px;
+}
+
+.nav-category ul{
+    list-style-type: none;
+}
+
+.nav-category ul li{
+    display: inline-block;
+}
+
+.nav-category ul li a{
+    font-family: neutratextboldalt;
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    background-color: #ff4402;
+    padding: 5px 10px;
+    margin: 0 1px;
+}
+
 #main-presta {
     margin: 57px 0 68px 0;
 }
 
-#main-presta h2{
+#main-presta h2 {
     font-family: neutratextboldalt;
     font-size: 20px;
     text-align: center;
@@ -923,32 +918,28 @@ header img {
     transform: scale(1.05, 1.05);
 }
 
-.mosaique-prestas{
+.mosaique-prestas {
     display: block;
     height: 480px;
 }
-
-
 
 /****************************/
 /***** Post prestations *****/
 /****************************/
 
-#single-atelier{
+#single-atelier {
     font-family: NeutraTextBookAlt;
 }
 
-.contact-prestation{
+.contact-prestation {
     font-family: NeutraTextBoldAlt;
     font-size: 30px;
     margin: 50px;
 }
 
-.text-prestations{
+.text-prestations {
     font-size: 20px
 }
-
-
 
 /******************/
 /***** footer *****/
@@ -984,7 +975,7 @@ footer {
     padding-left: 20px;
 }
 
-.wysija-input{
+.wysija-input {
     height: 30px;
     border-radius: 5px;
     background-color: #626262;
@@ -1017,8 +1008,6 @@ footer {
     margin: 30px 0;
 }
 
-
-
 .cb-slideshow,
 .cb-slideshow:after {
     position: absolute;
@@ -1029,10 +1018,12 @@ footer {
     z-index: 0;
     list-style-type: none;
 }
+
 .cb-slideshow:after {
     content: '';
     background: transparent url(assets/img/pattern.png) repeat top left;
 }
+
 .cb-slideshow li span {
     width: 100%;
     height: 100%;
@@ -1052,6 +1043,7 @@ footer {
     -ms-animation: imageAnimation 24s linear infinite 0s;
     animation: imageAnimation 24s linear infinite 0s;
 }
+
 .cb-slideshow li div {
     z-index: 1000;
     position: absolute;
@@ -1068,7 +1060,6 @@ footer {
     animation: titleAnimation 24s linear infinite 0s;
 }
 
-
 .cb-slideshow li div h3 {
     font-family: NeutraTextBoldAlt, Arial, sans-serif;
     color: #fff;
@@ -1077,9 +1068,11 @@ footer {
     padding: 0;
     line-height: 200px;
 }
+
 .cb-slideshow li:nth-child(1) span {
     background-image: url(assets/img/1.jpg)
 }
+
 .cb-slideshow li:nth-child(2) span {
     background-image: url(assets/img/2.jpg);
     -webkit-animation-delay: 6s;
@@ -1088,6 +1081,7 @@ footer {
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
+
 .cb-slideshow li:nth-child(3) span {
     background-image: url(assets/img/3.jpg);
     -webkit-animation-delay: 12s;
@@ -1096,6 +1090,7 @@ footer {
     -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
+
 .cb-slideshow li:nth-child(4) span {
     background-image: url(assets/img/4.png);
     -webkit-animation-delay: 18s;
@@ -1112,6 +1107,7 @@ footer {
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
+
 .cb-slideshow li:nth-child(3) div {
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
@@ -1119,6 +1115,7 @@ footer {
     -ms-animation-delay: 12s;
     animation-delay: 12s;
 }
+
 .cb-slideshow li:nth-child(4) div {
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
@@ -1127,116 +1124,233 @@ footer {
     animation-delay: 18s;
 }
 
-
-
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation {
-    0% { opacity: 0;
-        -webkit-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-        -webkit-animation-timing-function: ease-out; }
-    30% { opacity: 1 }
-    40% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-moz-keyframes imageAnimation {
-    0% { opacity: 0;
-        -moz-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-        -moz-animation-timing-function: ease-out; }
-    30% { opacity: 1 }
-    40% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-o-keyframes imageAnimation {
-    0% { opacity: 0;
-        -o-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-        -o-animation-timing-function: ease-out; }
-    30% { opacity: 1 }
-    40% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@-ms-keyframes imageAnimation {
-    0% { opacity: 0;
-        -ms-animation-timing-function: ease-in; }
-    8% { opacity: 1;
-        -ms-animation-timing-function: ease-out; }
-    30% { opacity: 1 }
-    40% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@keyframes imageAnimation {
-    0% { opacity: 0;
-        animation-timing-function: ease-in; }
-    8% { opacity: 1;
-        animation-timing-function: ease-out; }
-    30% { opacity: 1 }
-    40% { opacity: 0 }
-    100% { opacity: 0 }
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -webkit-animation-timing-function: ease-out;
+    }
+    30% {
+        opacity: 1
+    }
+    40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
 }
 
+@-moz-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -moz-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -moz-animation-timing-function: ease-out;
+    }
+    30% {
+        opacity: 1
+    }
+    40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-o-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -o-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -o-animation-timing-function: ease-out;
+    }
+    30% {
+        opacity: 1
+    }
+    40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-ms-keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        -ms-animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        -ms-animation-timing-function: ease-out;
+    }
+    30% {
+        opacity: 1
+    }
+    40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    30% {
+        opacity: 1
+    }
+    40% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
 
 /* Animation for the title */
 @-webkit-keyframes titleAnimation {
-    0% { opacity: 0 }
-    5% { opacity: 0 }
-    15% { opacity: 1 }
-    25% { opacity: 1 }
-    29% { opacity: 0 }
-    100% { opacity: 0 }
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0
+    }
+    15% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1
+    }
+    29% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
 }
+
 @-moz-keyframes titleAnimation {
-    0% { opacity: 0 }
-    5% { opacity: 0 }
-    15% { opacity: 1 }
-    25% { opacity: 1 }
-    29% { opacity: 0 }
-    100% { opacity: 0 }
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0
+    }
+    15% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1
+    }
+    29% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
 }
+
 @-o-keyframes titleAnimation {
-    0% { opacity: 0 }
-    5% { opacity: 0 }
-    15% { opacity: 1 }
-    25% { opacity: 1 }
-    29% { opacity: 0 }
-    100% { opacity: 0 }
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0
+    }
+    15% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1
+    }
+    29% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
 }
+
 @-ms-keyframes titleAnimation {
-    0% { opacity: 0 }
-    5% { opacity: 0 }
-    15% { opacity: 1 }
-    25% { opacity: 1 }
-    29% { opacity: 0 }
-    100% { opacity: 0 }
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0
+    }
+    15% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1
+    }
+    29% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
 }
+
 @keyframes titleAnimation {
-    0% { opacity: 0 }
-    5% { opacity: 0 }
-    15% { opacity: 1 }
-    25% { opacity: 1 }
-    29% { opacity: 0 }
-    100% { opacity: 0 }
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0
+    }
+    15% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1
+    }
+    29% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
 }
+
 /* Show at least something when animations not supported */
-.no-cssanimations .cb-slideshow li span{
+.no-cssanimations .cb-slideshow li span {
     opacity: 1;
 }
 
 @media screen and (max-width: 1140px) {
-    .cb-slideshow li div h3 { font-size: 140px }
+    .cb-slideshow li div h3 {
+        font-size: 140px
+    }
 }
+
 @media screen and (max-width: 600px) {
     .cb-slideshow li div h3 {
         font-size: 80px
     }
 }
 
-
 /************************************************************************/
 /******************************* QUIZZ **********************************/
 /************************************************************************/
-
 
 /*************************************************************/
 /************************** Page 1 ***************************/
@@ -1251,14 +1365,14 @@ footer {
     position: relative !important;
 }
 
-.cercle-fond0 p{
+.cercle-fond0 p {
     font-family: NeutraTextBoldAlt;
     color: #ff4402;
     font-size: 35px;
     padding-top: 300px;
 }
 
-.btn-start{
+.btn-start {
     position: absolute !important;
     bottom: 2%;
     left: 47%;
@@ -1272,12 +1386,11 @@ footer {
 
 }
 
-.btn-start:hover{
+.btn-start:hover {
     color: #ff4402;
     background-color: #fff;
     border: 3px solid #ff4402;
 }
-
 
 /****************************/
 /***** Question 1 & 3 *******/
@@ -1289,7 +1402,7 @@ footer {
     background-color: #ff4402;
 }
 
-.btn-q{
+.btn-q {
     position: absolute !important;
     bottom: 6%;
     left: 47%;
@@ -1313,8 +1426,7 @@ footer {
     padding-top: 13%;
 }
 
-
-.question h3{
+.question h3 {
     font-family: neutratextboldalt;
     font-size: 35px;
     text-transform: uppercase;
@@ -1330,12 +1442,12 @@ footer {
     color: #fff;
 }
 
-.question h5{
+.question h5 {
     border-top: 1px solid #fff;
     padding-top: 20px;
 }
 
-.question label{
+.question label {
     font-family: NeutraTextDemiAlt;
     font-size: 25px;
     color: #fff;
@@ -1354,8 +1466,6 @@ footer {
     background-color: #fff;
 }
 
-
-
 /****************************/
 /***** Question 2 & 4 *******/
 /****************************/
@@ -1363,9 +1473,9 @@ footer {
 .cercle-fond2 {
     background: url(assets/img/cercleqo.png) no-repeat center;
     position: relative !important;
- }
+}
 
-.btn-q2{
+.btn-q2 {
     position: absolute !important;
     bottom: 6%;
     left: 47%;
@@ -1389,7 +1499,7 @@ footer {
     padding-top: 13%;
 }
 
-.question2 h3{
+.question2 h3 {
     font-family: neutratextboldalt;
     font-size: 35px;
     text-transform: uppercase;
@@ -1405,12 +1515,12 @@ footer {
     color: #ff4402;
 }
 
-.question2 h5{
+.question2 h5 {
     border-top: 1px solid #ff4402;
     padding-top: 20px;
 }
 
-.question2 label{
+.question2 label {
     font-family: NeutraTextDemiAlt;
     font-size: 25px;
     color: #ff4402;
@@ -1429,21 +1539,18 @@ footer {
     background-color: #ff4402;
 }
 
-
-
 /****************************/
 /******** Question 5 ********/
 /****************************/
 
-
-.cercle-fond-der{
+.cercle-fond-der {
     background: url(assets/img/cercleder.png) no-repeat center;
     position: relative !important;
     background-color: #ff4402;
 
 }
 
-.btn-qder{
+.btn-qder {
     position: absolute !important;
     bottom: 2%;
     left: 47%;
@@ -1467,8 +1574,7 @@ footer {
     padding-top: 10%;
 }
 
-
-.question-der h3{
+.question-der h3 {
     font-family: neutratextboldalt;
     font-size: 30px;
     text-transform: uppercase;
@@ -1484,12 +1590,12 @@ footer {
     color: #fff;
 }
 
-.question-der h5{
+.question-der h5 {
     border-top: 1px solid #fff;
     padding-top: 15px;
 }
 
-.question-der label{
+.question-der label {
     font-family: NeutraTextDemiAlt;
     font-size: 22px;
     color: #fff;
@@ -1503,13 +1609,11 @@ footer {
     padding-bottom: 15px;
 }
 
-
-
 /*****************************************************************/
 /************************** Page Score ***************************/
 /*****************************************************************/
 
-#score{
+#score {
     background-color: #e6efc1;
     font-family: neutratextboldalt;
     padding: 50px 0;
@@ -1520,7 +1624,7 @@ footer {
     color: #ff4402;
 }
 
-#score h3{
+#score h3 {
     font-size: 45px;
     padding-top: 30px;
 }
@@ -1531,15 +1635,15 @@ footer {
     margin: 70px 0 50px 0;
 }
 
-#score-comment p{
+#score-comment p {
     padding: 50px 0;
 }
 
-#score-button a {
+.score-button a {
     text-decoration: none;
 }
 
-#score-button p {
+.score-button p {
     font-family: NeutraTextBookAlt;
     font-size: 30px;
     color: #fff;
@@ -1550,10 +1654,68 @@ footer {
     border: 3px solid #fff;
 }
 
-#score-button p:hover {
+.score-button p:hover {
     color: #ff4402;
     background-color: #fff;
     border: 3px solid #ff4402;
+}
+
+
+
+/********************************************************************/
+/************************** Page Réponses ***************************/
+/********************************************************************/
+
+
+.reponse,
+.rep-saviez {
+    border: 3px solid #ff4402;
+    height: 300px;
+    padding: 30px;
+}
+
+#main-quiz-rep{
+    margin: 80px 0;
+}
+
+.quest-rep{
+    margin-bottom: 80px;
+}
+
+.reponse h3{
+    font-family: NeutraTextBoldItalicAlt;
+    margin-top: 0;
+}
+
+.reponse p {
+    font-family: NeutraTextBookAlt;
+    font-size: 20px;
+}
+
+.reponse .rep-questions1{
+    font-family: NeutraTextBoldItalicAlt;
+    font-size: 40px;
+    color: #ff4402;
+    margin-bottom: 20px;
+}
+
+.reponse .stat-rep1{
+    font-family: NeutraTextBoldItalicAlt;
+    font-size: 30px;
+}
+
+.rep-saviez h3{
+    font-family: NeutraTextBoldItalicAlt;
+}
+
+.rep-saviez p{
+    font-family: NeutraTextBookAlt;
+}
+
+.button-engagement p{
+    font-family: NeutraTextBoldAlt;
+    font-size: 35px;
+
 }
 
 
@@ -1573,15 +1735,15 @@ footer {
     margin-bottom: 30px;
 }
 
-#reference span{
+#reference span {
     color: #ff4402;
 }
 
-#main-ref{
-padding-top: 90px;
+#main-ref {
+    padding-top: 90px;
 }
 
-#main-ref h2{
+#main-ref h2 {
     margin-bottom: 50px;
     padding-left: 15px;
 }
@@ -1594,30 +1756,178 @@ padding-top: 90px;
     margin-bottom: 34px !important;
 }
 
-.temoin-ref h4{
-font-family: NeutraTextBoldAlt;
+.temoin-ref h4 {
+    font-family: NeutraTextBoldAlt;
     font-size: 22px;
     margin-top: 30px;
 }
 
-.temoin-ref p{
+.temoin-ref p {
     font-family: NeutraTextBookAlt;
     font-size: 20px;
 }
 
 #arrow-refl,
-#arrow-refr{
+#arrow-refr {
     height: 500px;
     line-height: 500px;
 }
 
-#ref-down{
+#ref-down {
     font-family: NeutraTextBoldAlt;
     background-color: #e6efc1;
     font-size: 30px;
     padding: 90px 0;
 }
 
-#ref-down span{
+#ref-down span {
     color: #ff4402;
+}
+
+/***********************************************************************/
+/***************************** INDEX BLOG ******************************/
+/***********************************************************************/
+
+#index-blog-top {
+    background-color: #e6efc1;
+    padding: 70px 0;
+}
+
+#index-blog-top h2 {
+    font-family: ForteMTRegular;
+    color: #ff4402;
+    font-size: 40px;
+}
+
+#index-blog-top p {
+    font-family: NeutraTextBoldAlt;
+    font-size: 30px;
+}
+
+.blog{
+    margin: 60px 0;
+}
+
+.thumbnail-index-blog,
+.thumbnail-index-blog img{
+    float: left;
+    margin-right: 20px;
+}
+
+.thumbnail-index-blog{
+    border: none !important;
+}
+
+.post-index,
+.post-index h2
+{
+display: inline-block !important;
+}
+
+.post-index {
+    margin-bottom: 25px;
+}
+
+.titre-post-blog{
+    font-family: NeutraTextBoldAlt;
+    text-decoration: none;
+    color: #1d1d1b;
+}
+
+.blog .titre-post-blog:hover{
+    color: #626262;
+}
+
+.postmetadata{
+    font-family: NeutraTextBookItalicAlt !important;
+}
+
+.post-index p {
+    font-family: NeutraTextBoldAlt;
+    color: #1d1d1b;
+    font-size: 20px;
+}
+
+#sidebar-index-blog{
+    font-family: NeutraTextBookSCAlt;
+    margin-top: 10px;
+}
+
+#sidebar-index-blog #searchform label{
+    display: none;
+}
+
+
+/***********************************************************************/
+/***************************** SINGLE BLOG ******************************/
+/***********************************************************************/
+
+
+.content-single-post {
+    font-family: NeutraTextBookAlt;
+    color: #1d1d1b;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.content-single-post #excerpt {
+    font-family: NeutraTextBoldAlt !important;
+}
+
+.categories{
+display: inline-block;
+margin-top: 15px;
+}
+
+.commentaires {
+    background-color: #626262;
+    padding: 20px;
+}
+
+.commentaires h3{
+    font-family: neutratextboldalt;
+    color: #fff;
+}
+
+.commentaires .logged-in-as a,
+.commentaires .comment-notes span{
+    color: #fff;
+    text-decoration: none;
+    font-family: NeutraTextBookItalicAlt;
+    font-size: 14px;
+}
+
+.commentaires .logged-in-as a:hover{
+    color: #a3adb7;
+}
+
+.commentaires .comment-form-comment label {
+    display: none;
+}
+
+.commentaires .comment-form-author label,
+.commentaires .comment-form-email label,
+.commentaires .comment-form-url label,
+.commentaires .wysija-after-comment {
+    font-family: NeutraTextBookAlt;
+    color: #fff;
+    font-size: 14px;
+}
+
+.commentaires textarea{
+    width: 50%;
+}
+
+.commentaires input {
+    font-family: NeutraTextBookAlt;
+    border-style: none;
+}
+
+.single-blog #widget-area{
+    font-family: NeutraTextBookSCAlt;
+    margin-top: 35%;
+}
+
+.single-blog #widget-area #searchform label{
+    display: none;
 }

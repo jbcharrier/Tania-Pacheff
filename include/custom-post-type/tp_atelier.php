@@ -25,6 +25,7 @@ function tp_create_atelier_custom()
         'rewrite' => true,
         'has_archive' => 'atelier',
         'menu_position' => 3,
-        'supports' => ['title', 'editor', 'excerpt', 'thumbnail', 'page-attributes']
+        'supports' => ['title', 'editor', 'excerpt', 'thumbnail', 'page-attributes'],
+        'taxonomies' => ['category']
     ]);
 }

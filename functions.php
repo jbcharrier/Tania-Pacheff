@@ -9,6 +9,8 @@ function jbc_setup_theme()
 {
     add_theme_support('post-thumbnails');
     register_nav_menu('main', 'Menu principal header');
+    register_nav_menu('secondary', 'Menu category prestations');
+
 }
 
 add_action('widgets_init', 'jbc_add_sidebar');
@@ -17,9 +19,17 @@ function jbc_add_sidebar()
 {
     register_sidebar(array(
         'id' => 'widget1',
-        'name' => 'Zone de widget (newsletter form)',
+        'name' => 'Inscription newsletter (footer)',
         'before_widget' => '<aside>',
         'after_widget' => '</aside>',
+    ));
+    register_sidebar(array(
+        'name' => 'Sidebar du blog',
+        'id' => 'sidebar-blog',
+        'before_widget' => '<aside>',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
     ));
 }
 
@@ -64,4 +74,5 @@ require_once TEMPLATEPATH . '/include/metabox/tp_meta_reference.php';
 
 add_filter('login_errors',create_function('$erreur', "return 'Erreur de connexion';"));
 remove_action('wp_head', 'wp_generator');
+
 
