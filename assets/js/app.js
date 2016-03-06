@@ -1,6 +1,10 @@
     $(document).ready(function () {
 
 
+        $('#facebook1').on('click', function(){
+            window.open('https://www.facebook.com/sharer/sharer.php?u=www.taniapacheff.com&title=Quiz nutritionnel de Tania Pacheff&description=Testez vos connaissances en diététique et débusquez les idées reçues !', 'facebook_share', 'height=320, width=640, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+        });
+
         $('#ecran-commencer').css('height', (window.innerHeight-169) + 'px');
         $('#question1').css('height', (window.innerHeight) + 'px');
         $('#question2').css('height', (window.innerHeight) + 'px');

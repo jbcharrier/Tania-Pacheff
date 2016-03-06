@@ -74,8 +74,7 @@ $results5 = ceil(($count5 * 100) / $count_total5);
 
 ?>
 
-<?php get_header(); ?>
-
+<?php get_template_part('headerreponsequiz'); ?>
 
     <section class="row text-center" id="score">
         <div class="col-md-8 col-md-offset-2">
@@ -205,6 +204,14 @@ $results5 = ceil(($count5 * 100) / $count_total5);
         </section>
     </main>
 
+    <section class="row text-center button-partage">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="partage-quiz">
+                <p>Ce Quiz vous a plu ? Partagez-le sur <i class="fa fa-facebook" id="facebook1"></i> et <a href="https://twitter.com/intent/tweet?text=Testez vos connaissances en diététique avec le quiz de Tania Pacheff&hashtags=dietetique,santé&url=http://localhost/tania_pacheff/?page_id=64" target="_blank">
+                        <i class="fa fa-twitter"></i></a></p>
+            </div>
+        </div>
+        </section>
 
     <section class="row text-center button-engagement">
         <div class="col-sm-4 col-sm-offset-4">

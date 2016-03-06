@@ -1715,7 +1715,36 @@ footer {
 .button-engagement p{
     font-family: NeutraTextBoldAlt;
     font-size: 35px;
+}
 
+.partage-quiz p{
+    font-family: NeutraTextBoldAlt;
+    font-size: 30px;
+    color: #ff4402;
+    border: 3px solid #ff4402;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.partage-quiz p i{
+    text-decoration: none;
+    color: #ff4402;
+    font-size: 40px;
+}
+
+.partage-quiz p i:hover{
+    color: #1b9be9;
+    transition: all 0.2s;
+}
+
+#facebook1{
+    cursor: pointer;
+    color: #ff4402;
+}
+
+#facebook1:hover{
+    color: #2c4485;
+    transition: all 0.2s;
 }
 
 
