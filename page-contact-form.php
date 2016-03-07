@@ -17,13 +17,7 @@ Template Name: Page contact-form
                 <h4 class="modal-title" id="myModalLabel">Confirmation de l'envoi de votre message</h4>
             </div>
             <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non magna et libero semper
-                    lobortis. Aliquam finibus quam a molestie volutpat. Nullam ac nisi leo. Nam fermentum libero
-                    at massa dapibus, eget gravida nibh mattis. Aenean sapien purus, viverra vel rhoncus sit
-                    amet, viverra at felis. Quisque semper mauris diam, eu dignissim sapien aliquam eget. Nullam
-                    finibus pellentesque aliquet. Maecenas non lorem sed orci tincidunt dignissim. Class aptent
-                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                </p>
+                <p>Vous recevrez une réponse dans les plus brefs délais.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -40,11 +34,12 @@ Template Name: Page contact-form
         </div>
     </div>
     <div class="row" id="form">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-3" id="form-validation">
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
                     <article class="post" id="post-<?php the_ID(); ?>">
                         <?php the_content(); ?>
+                        <button id="valid">Valider</button>
                     </article>
                 <?php endwhile; ?>
             <?php else : ?>

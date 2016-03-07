@@ -30,6 +30,17 @@ Template Name: Page atelier
                 wp_nav_menu($param_menu); ?>
             </div>
         </div>
+        <div class="col-xs-1 col-xs-offset-1">
+            <aside class="reseaux" id="reseaux-eco-engag">
+                <ul class="no-marg no-padd">
+                    <li class="text-center"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="text-center"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="text-center"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="text-center"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </aside>
+        </div>
+
     </section>
 
     <main id="main-presta">

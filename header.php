@@ -52,7 +52,7 @@
 <!--your browser</a> to improve your experience.</p>-->
 <!--<![endif]-->
 
-<div class="container-fluid">
+<div class="container-fluid no-padd no-marg">
      <header class="row">
         <div class="col-xs-2">
             <h1>

@@ -18,6 +18,16 @@ Template Name: Page references
             </span>
         </p>
     </div>
+    <div class="col-sm-1 col-sm-offset-1">
+        <aside class="reseaux" id="reseaux-eco-engag">
+            <ul class="no-marg no-padd">
+                <li class="text-center"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li class="text-center"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="text-center"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="text-center"><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </aside>
+    </div>
 </section>
 
 <main id="main-ref">
