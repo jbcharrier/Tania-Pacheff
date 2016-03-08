@@ -9,32 +9,6 @@ Template Name: Page atelier
 
 <p>category.php</p>
 
-<!--    <section class="row" id="prestations-top">-->
-<!--        <div class="col-xs-8 col-xs-offset-2">-->
-<!--            <h2>Categories</h2>-->
-<!--            --><?php //if (have_posts()) : ?>
-<!--                --><?php //while (have_posts()) : the_post(); ?>
-<!--                    <article class="post" id="post---><?php //the_ID(); ?><!--">-->
-<!--                        --><?php //the_content(); ?>
-<!--                    </article>-->
-<!--                --><?php //endwhile; ?>
-<!--            --><?php //else : ?>
-<!--                <h2 class="center">Aucun article trouvé. Vous pouvez essayer une nouvelle recherche</h2>-->
-<!--                --><?php //include(TEMPLATEPATH . '/searchform.php'); ?>
-<!--            --><?php //endif; ?>
-<!--            --><?php //wp_reset_postdata(); ?>
-<!--            <div id="nav-cat">-->
-<!--                --><?php
-//                $param_menu = [
-//                    'theme_location' => 'secondary',
-//                    'container' => 'nav',
-//                    'container_class' => 'nav-category'
-//                ];
-//                wp_nav_menu($param_menu); ?>
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-
     <main id="main-presta">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1">

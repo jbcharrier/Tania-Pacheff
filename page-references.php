@@ -107,7 +107,8 @@ Template Name: Page references
         <div class="col-sm-6 col-sm-offset-3">
             <p>Pour un devis ou toute autre demande,
                 n’hésitez pas à me contacter au <span>06 62 06 90 23</span>
-                ou via mon formulaire de contact.
+                ou via mon <a class="lien-formulaire-bottom" href="http://localhost/tania_pacheff/?page_id=242">formulaire de
+                    contact.</a></p>
             </p>
         </div>
     </section>

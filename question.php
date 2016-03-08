@@ -36,11 +36,11 @@ Template Name: Page question
                             <div class="col-xs-10 col-xs-offset-1">
                                 <h3 class="text-left">Question 1</h3>
                                 <p class="text-left">Quelle est la quantité de sel dont l’homme à besoin par jour ?</p>
-                                <input type="radio" name="question1" id="question1_0" value="0"> <label
+                                <input type="radio" name="question1" id="question1_0" value="0" required> <label
                                     for="question1_0">0gr</label>
-                                <input type="radio" name="question1" id="question1_2" value="2"> <label
+                                <input type="radio" name="question1" id="question1_2" value="2" required> <label
                                     for="question1_2">2gr</label>
-                                <input type="radio" name="question1" id="question1_10" value="10"> <label
+                                <input type="radio" name="question1" id="question1_10" value="10" required> <label
                                     for="question1_10">10gr</label>
                                 <h5 class="text-left">Le saviez-vous ?</h5>
                                 <p class="saviez-vous text-left">Le sodium est un minéral qui joue un rôle important
@@ -70,11 +70,11 @@ Template Name: Page question
                             <div class="col-xs-10 col-xs-offset-1">
                                 <h3 class="text-left">Question 2</h3>
                                 <p class="text-left">Quelle est la quantité de sel moyenne consommée par personne, par jour en France ?</p>
-                                <input type="radio" name="question2" id="question2_6" value="6"> <label
+                                <input type="radio" name="question2" id="question2_6" value="6" required> <label
                                     for="question2_6">6gr</label>
-                                <input type="radio" name="question2" id="question2_10" value="10"> <label
+                                <input type="radio" name="question2" id="question2_10" value="10" required> <label
                                     for="question2_10">10gr</label>
-                                <input type="radio" name="question2" id="question2_15" value="15"> <label
+                                <input type="radio" name="question2" id="question2_15" value="15" required> <label
                                     for="question2_15">15gr</label>
                                 <h5 class="text-left">Le saviez-vous ?</h5>
                                 <p class="saviez-vous2 text-left">Le sodium est un minéral qui joue un rôle important
@@ -103,11 +103,11 @@ Template Name: Page question
                             <div class="col-xs-10 col-xs-offset-1">
                                 <h3 class="text-left">Question 3</h3>
                                 <p class="text-left">Quelle est la consommation maximum de sel recommandée par jour ?</p>
-                                <input type="radio" name="question3" id="question3_2" value="2"> <label
+                                <input type="radio" name="question3" id="question3_2" value="2" required> <label
                                     for="question3_2">0gr</label>
-                                <input type="radio" name="question3" id="question3_5" value="5"> <label
+                                <input type="radio" name="question3" id="question3_5" value="5" required> <label
                                     for="question3_5">2gr</label>
-                                <input type="radio" name="question3" id="question3_10" value="10"> <label
+                                <input type="radio" name="question3" id="question3_10" value="10" required> <label
                                     for="question3_10">10gr</label>
                                 <h5 class="text-left">Le saviez-vous ?</h5>
                                 <p class="saviez-vous text-left">Le sodium est un minéral qui joue un rôle important
@@ -136,11 +136,11 @@ Template Name: Page question
                             <div class="col-xs-10 col-xs-offset-1">
                                 <h3 class="text-left">Question 4</h3>
                                 <p class="text-left">Combien de morceaux de sucre sont contenus dans une cannette de 33cl de soda?</p>
-                                <input type="radio" name="question4" id="question4_5" value="5"> <label
+                                <input type="radio" name="question4" id="question4_5" value="5" required> <label
                                     for="question4_5">5gr</label>
-                                <input type="radio" name="question4" id="question4_7" value="7"> <label
+                                <input type="radio" name="question4" id="question4_7" value="7" required> <label
                                     for="question4_7">7gr</label>
-                                <input type="radio" name="question4" id="question4_9" value="9"> <label
+                                <input type="radio" name="question4" id="question4_9" value="9" required> <label
                                     for="question4_9">9gr</label>
                                 <h5 class="text-left">Le saviez-vous ?</h5>
                                 <p class="saviez-vous2 text-left">Le sodium est un minéral qui joue un rôle important
@@ -168,9 +168,9 @@ Template Name: Page question
                             <div class="col-xs-10 col-xs-offset-1">
                                 <h3 class="text-left">Question 5</h3>
                                 <p class="text-left">Un jus de raisin de 33cl est-t-il moins sucré qu'un soda ?</p>
-                                <input type="radio" name="question5" id="question5_oui" value="oui"> <label
+                                <input type="radio" name="question5" id="question5_oui" value="oui" required> <label
                                     for="question5_oui">Oui</label>
-                                <input type="radio" name="question5" id="question5_non" value="non"> <label
+                                <input type="radio" name="question5" id="question5_non" value="non" required> <label
                                     for="question5_non">Non</label>
                                 <h5 class="text-left">Le saviez-vous ?</h5>
                                 <p class="saviez-vous text-left">Le sodium est un minéral qui joue un rôle important

@@ -10,10 +10,10 @@ Template Name: Page Front-Page
         <!--Slider-->
         <section class="row" id="slider">
             <ul class="cb-slideshow no-padd no-marg">
-                <li><span>Image 01</span><div class="no-padd no-marg"><a href="<?php echo bloginfo('url') . '/?page_id=69' ?>"><h3>Des ateliers culinaires sur mesure</h3></a></div></li>
-                <li><span>Image 02</span><div><a href="<?php echo bloginfo('url') . '/?page_id=71' ?>"><h3>L’alimentation eco-engagée un levier de performance</h3></a></div></li>
-                <li><span>Image 03</span><div><a href="<?php echo bloginfo('url') . '/?page_id=16' ?>"><h3>Restez en forme, sans se priver</h3></a></div></li>
-                <li><span>Image 04</span><div><a href="<?php echo bloginfo('url') . '/?page_id=16' ?>"><h3>L'éveil au goût des enfants</h3></a></div></li>
+                <li><span>Image 01</span><section><a href="<?php echo bloginfo('url') . '/?page_id=69' ?>"><h3>Des ateliers culinaires sur mesure</h3></a></section></li>
+                <li><span>Image 02</span><section><a href="<?php echo bloginfo('url') . '/?page_id=71' ?>"><h3>L’alimentation eco-engagée un levier de performance</h3></a></section></li>
+                <li><span>Image 03</span><section><a href="<?php echo bloginfo('url') . '/?page_id=16' ?>"><h3>Restez en forme, sans se priver</h3></a></section></li>
+                <li><span>Image 04</span><section><a href="<?php echo bloginfo('url') . '/?page_id=16' ?>"><h3>L'éveil au goût des enfants</h3></a></section></li>
             </ul>
             <div class="containers no-padd no-marg"></div>
 

@@ -8,7 +8,7 @@ Template Name: Page atelier
 <?php get_header(); ?>
 
     <section class="row" id="prestations-top">
-        <div class="col-xs-8 col-xs-offset-2">
+        <div class="col-xs-9 col-xs-offset-2">
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
                     <article class="post" id="post-<?php the_ID(); ?>">
@@ -20,7 +20,7 @@ Template Name: Page atelier
                 <?php include(TEMPLATEPATH . '/searchform.php'); ?>
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>
-            <div id="nav-cat">
+                        <div id="nav-cat">
                 <?php
                 $param_menu = [
                     'theme_location' => 'secondary',
@@ -30,7 +30,7 @@ Template Name: Page atelier
                 wp_nav_menu($param_menu); ?>
             </div>
         </div>
-        <div class="col-xs-1 col-xs-offset-1">
+        <div class="col-xs-1">
             <aside class="reseaux" id="reseaux-eco-engag">
                 <ul class="no-marg no-padd">
                     <li class="text-center"><a href="#"><i class="fa fa-linkedin"></i></a></li>

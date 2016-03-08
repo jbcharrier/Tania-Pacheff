@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <main id="single-atelier" class="no-padd no-marg">
-        <div class="row no-padd no-marg">
+        <div class="row">
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <article class="post" id="post-<?php the_ID(); ?>">
@@ -11,8 +11,8 @@
                                 <div class="row contact-prestation">
                                     <div class="col-md-6 col-md-offset-3 text-center">
                                         <p>Pour en savoir plus sur cet atelier, pour un devis ou toute autre demande.
-                                            N’hésitez pas à me contacter au <span>06 62 06 90 23</span> ou via mon formulaire de
-                                            contact.</p>
+                                            N’hésitez pas à me contacter au <span>06 62 06 90 23</span> ou via mon <a class="lien-formulaire-bottom" href="http://localhost/tania_pacheff/?page_id=242">formulaire de
+                                                contact.</a></p>
                                     </div>
                                 </div>
                             </adress>

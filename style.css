@@ -298,6 +298,14 @@ header img {
     padding-left: 0;
 }
 
+#logo-quiz:hover {
+    filter: grayscale(0.5);
+    -webkit-filter: grayscale(0.2);
+    -moz-filter: grayscale(0.2);
+    -o-filter: grayscale(0.2);
+    -ms-filter: grayscale(0.2);
+}
+
 /*****************************************************************/
 /***************************** HOME ******************************/
 /*****************************************************************/
@@ -346,12 +354,12 @@ header img {
     animation: imageAnimation 24s linear infinite 0s;
 }
 
-.cb-slideshow li div {
+.cb-slideshow li section {
     z-index: 1000;
     position: absolute;
     bottom: 27%;
     left: 3%;
-    width: 100%;
+    width: 97%;
     text-align: center;
     opacity: 0;
     color: #fff;
@@ -362,7 +370,7 @@ header img {
     animation: titleAnimation 24s linear infinite 0s;
 }
 
-.cb-slideshow li div h3 {
+.cb-slideshow li section h3 {
     font-family: NeutraTextBoldAlt, Arial, sans-serif;
     color: #fff;
     font-size: 45px;
@@ -406,7 +414,7 @@ header img {
     animation-delay: 18s;
 }
 
-.cb-slideshow li:nth-child(2) div {
+.cb-slideshow li:nth-child(2) section {
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -414,7 +422,7 @@ header img {
     animation-delay: 6s;
 }
 
-.cb-slideshow li:nth-child(3) div {
+.cb-slideshow li:nth-child(3) section {
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -422,7 +430,7 @@ header img {
     animation-delay: 12s;
 }
 
-.cb-slideshow li:nth-child(4) div {
+.cb-slideshow li:nth-child(4) section {
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
@@ -643,13 +651,13 @@ header img {
 }
 
 @media screen and (max-width: 1140px) {
-    .cb-slideshow li div h3 {
+    .cb-slideshow li section h3 {
         font-size: 140px
     }
 }
 
 @media screen and (max-width: 600px) {
-    .cb-slideshow li div h3 {
+    .cb-slideshow li section h3 {
         font-size: 80px
     }
 }
@@ -755,7 +763,8 @@ header img {
 
 .arrow-down {
     position: absolute !important;
-    top: 70%;
+    /*top: 70%;*/
+    top: 78%;
     left: 50%;
     z-index: 10 !important;
 }
@@ -919,7 +928,8 @@ header img {
     font-size: 23px;
     color: #2a2a2a;
     vertical-align: top;
-}
+    margin-top: 15x;
+    }
 
 #bonnes-adresses article p {
     font-family: NeutraTextDemiAlt;
@@ -930,7 +940,7 @@ header img {
 }
 
 #filet {
-    padding: 5px 0 5px 0;
+    padding: 2px 0 2px 0;
 }
 
 #adresse1 {
@@ -1013,7 +1023,7 @@ header img {
 }
 
 .txt-blog {
-    padding: 20px 20px 32px 20px;
+    padding: 20px 20px 15px 20px;
 }
 
 .txt-blog h5 {
@@ -1032,7 +1042,6 @@ header img {
 .txt-blog #suite {
     background-color: #ff4402;
     color: #fff;
-    border-radius: 8px;
     display: inline-block;
     padding: 4px 12px;
     box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.2);
@@ -1091,7 +1100,7 @@ header img {
 }
 
 #mon-parcours{
-    padding: 30px;
+    padding: 20px;
 }
 
 #blockquote-qui {
@@ -1115,6 +1124,15 @@ header img {
     color: #1d1d1b;
 }
 
+.lien-formulaire-bottom{
+    text-decoration: none !important;
+    color: #ff4402 !important;
+}
+
+.lien-formulaire-bottom:hover{
+    color: #1d1d1b !important;
+}
+
 
 
 /**************************************************************************/
@@ -1133,7 +1151,8 @@ header img {
 
 #form {
     background-color: #e6efc1;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
+    padding: 60px 0 30px 0;
 }
 
 #form form {
@@ -1217,6 +1236,19 @@ position: absolute;
     margin-top: 10px;
     font-size: 20px;
 }
+
+#retour-home {
+    font-family: NeutraTextBookAlt;
+    font-size: 20px;
+    text-decoration: none;
+    color: #414141;
+    float: right;
+}
+
+#retour-home:hover{
+    color: #ff4402;
+}
+
 
 
 
@@ -1422,7 +1454,7 @@ margin-bottom: 0;
 }
 
 .article-middle{
-    margin: 125px 0;
+    margin: 125px 0 125px 0 !important;
 }
 
 #description-snacking{
@@ -1595,19 +1627,27 @@ footer {
 
 .cercle-fond0 {
     background: url(assets/img/cercle0.png) no-repeat center;
+    /*background-size: 50%;*/
     position: relative !important;
 }
+
+/*#ecran-commencer{*/
+    /*position: relative;*/
+/*}*/
 
 .cercle-fond0 p {
     font-family: NeutraTextBoldAlt;
     color: #ff4402;
     font-size: 35px;
+    /*position: absolute;*/
+    /*top: 450px;*/
     padding-top: 300px;
 }
 
 .btn-start {
     position: absolute !important;
-    bottom: 2%;
+    /*bottom: 2%;*/
+    bottom: 5%;
     left: 47%;
     font-family: NeutraTextBookAlt;
     font-size: 31px;
@@ -1630,13 +1670,15 @@ footer {
 
 .cercle-fond {
     background: url(assets/img/cercleqb.png) no-repeat center;
+    /*background-size: 50%;*/
     position: relative !important;
     background-color: #ff4402;
 }
 
 .btn-q {
     position: absolute !important;
-    bottom: 6%;
+    /*bottom: 6%;*/
+    bottom:9%;
     left: 47%;
     font-family: NeutraTextBookAlt;
     font-size: 31px;
@@ -1656,6 +1698,7 @@ footer {
 
 .question {
     padding-top: 13%;
+    /*padding-top: 20%;*/
 }
 
 .question h3 {
@@ -1704,12 +1747,14 @@ footer {
 
 .cercle-fond2 {
     background: url(assets/img/cercleqo.png) no-repeat center;
+    /*background-size: 50%;*/
     position: relative !important;
 }
 
 .btn-q2 {
     position: absolute !important;
-    bottom: 6%;
+    bottom: 9%;
+    /*bottom: 6%;*/
     left: 47%;
     font-family: NeutraTextBookAlt;
     font-size: 31px;
@@ -1729,6 +1774,7 @@ footer {
 
 .question2 {
     padding-top: 13%;
+    /*padding-top: 20%;*/
 }
 
 .question2 h3 {
@@ -1778,13 +1824,15 @@ footer {
 .cercle-fond-der {
     background: url(assets/img/cercleder.png) no-repeat center;
     position: relative !important;
+    /*background-size: 50%;*/
     background-color: #ff4402;
 
 }
 
 .btn-qder {
     position: absolute !important;
-    bottom: 2%;
+    bottom: 5%;
+    /*bottom: 2%;*/
     left: 47%;
     font-family: NeutraTextBookAlt;
     font-size: 31px;
@@ -1803,6 +1851,7 @@ footer {
 }
 
 .question-der {
+    /*padding-top: 18%;*/
     padding-top: 10%;
 }
 

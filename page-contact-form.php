@@ -40,6 +40,7 @@ Template Name: Page contact-form
                     <article class="post" id="post-<?php the_ID(); ?>">
                         <?php the_content(); ?>
                         <button id="valid">Valider</button>
+                        <a id="retour-home" href="http://localhost/tania_pacheff/">Retour à la page d'accueil</a>
                     </article>
                 <?php endwhile; ?>
             <?php else : ?>
